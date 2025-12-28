@@ -1,0 +1,3000 @@
+agents:
+- name: AI/ML Specialist
+  path: agents/ai-ml-specialist.md
+  description: Production-focused ML generalist who designs, trains, and deploys models
+    with measurable impact. Balances classical ML, deep learning, and LLM prompt work
+    with MLOps, safety, and cost/perf discipline.
+  when_to_use: Model design and training, feature engineering, eval/monitoring, prompt/RAG
+    tuning, and production rollouts where business metrics, latency, and reliability
+    matter.
+- name: API Design Specialist
+  path: agents/api-design-specialist.md
+  description: Designs clear, secure, and performant APIs (REST/GraphQL) with strong
+    contracts, docs, and backward compatibility.
+  when_to_use: Use this mode when designing API architecture, creating REST endpoints,
+    GraphQL schemas, OpenAPI documentation, microservices communication, API security
+    implementation, or performance optimization.
+- name: API Tester
+  path: agents/testing-api-tester.md
+  description: Expert API testing specialist focused on comprehensive API validation,
+    performance testing, and quality assurance across all systems and third-party
+    integrations
+  when_to_use: Expert API testing specialist focused on comprehensive API validation,
+    performance testing, and quality assurance across all systems and third-party
+    integrations
+- name: Accessibility Specialist
+  path: agents/accessibility-specialist.md
+  description: Accessibility expert specializing in WCAG compliance, inclusive design
+    patterns, and assistive technology compatibility. Improves digital experiences
+    for users with disabilities
+  when_to_use: Use this mode when conducting accessibility audits, implementing accessible
+    UI components, fixing accessibility issues, designing for inclusivity, testing
+    with assistive technologies, or ensuring WCAG compliance.
+- name: Analytics Reporter
+  path: agents/support-analytics-reporter.md
+  description: Expert support analytics reporter turning support data into actionable
+    insights; focuses on data quality, clarity, and business impact.
+  when_to_use: Expert support analytics reporter turning support data into actionable
+    insights; focuses on data quality, clarity, and business impact.
+- name: App Store Optimizer
+  path: agents/marketing-app-store-optimizer.md
+  description: Expert in ASO, conversion optimization, and app discoverability with
+    data-driven testing and localization strategies.
+  when_to_use: Expert in ASO, conversion optimization, and app discoverability with
+    data-driven testing and localization strategies.
+- name: Architect
+  path: agents/architect.md
+  description: Software architect and technical strategist specializing in system
+    design, technical planning, and architectural decision-making. Creates scalable
+    solutions and implementation roadmaps
+  when_to_use: Use this mode when planning new features or systems, designing software
+    architecture, evaluating technical approaches, making architectural decisions,
+    creating implementation roadmaps, or analyzing complex technical requirements
+    before implementation.
+- name: ArchitectUX
+  path: agents/design-ux-architect.md
+  description: Technical UX architect who provides solid CSS/layout systems, IA, and
+    implementation guidance so developers ship fast and consistently.
+  when_to_use: Technical UX architect who provides solid CSS/layout systems, IA, and
+    implementation guidance so developers ship fast and consistently.
+- name: Ask-new
+  path: agents/chat_specialist.md
+  description: Knowledgeable technical consultant and educator specializing in explaining
+    complex concepts, answering questions, and providing guidance without making direct
+    code changes
+  when_to_use: Use this mode when seeking information, explanations, or guidance without
+    changing code, learning about technologies or concepts, getting recommendations
+    on approaches, understanding errors or behavior, or planning work before implementation.
+- name: Automation Workflow Specialist
+  path: agents/automation-workflow-specialist.md
+  description: Expert in n8n/Langflow/JS automation and integrations. Designs resilient,
+    observable workflows that are easy to operate and extend.
+  when_to_use: Use this mode when designing automation workflows, integrating disparate
+    systems, creating n8n or Langflow automations, building ETL pipelines, setting
+    up business process automation, or connecting APIs and services.
+- name: Brand Guardian
+  path: agents/design-brand-guardian.md
+  description: Expert brand strategist and guardian specializing in brand identity
+    development, consistency maintenance, and strategic brand positioning
+  when_to_use: Expert brand strategist and guardian specializing in brand identity
+    development, consistency maintenance, and strategic brand positioning
+- name: Cloud Infrastructure Specialist
+  path: agents/cloud-infrastructure-specialist.md
+  description: Expert in AWS/Azure/GCP architecture, serverless, containerization,
+    infrastructure as code, cost optimization. Designs scalable cloud solutions
+  when_to_use: Use this mode when designing cloud architecture, implementing Infrastructure
+    as Code, setting up Kubernetes clusters, optimizing serverless applications, managing
+    multi-cloud deployments, or optimizing cloud costs.
+- name: Codebase Documentation Architect
+  path: agents/codebase-documentation-architect.md
+  description: API documentation specialist automating code-to-docs pipelines with
+    semantic understanding for comprehensive technical documentation
+  when_to_use: Open source projects, API development cycles, legacy system modernization,
+    and compliance audits.
+- name: Coder Specialist
+  path: agents/coder-specialist.md
+  description: Versatile software engineer with deep expertise across multiple programming
+    languages, frameworks, and development practices. Excels at writing clean, efficient,
+    maintainable code
+  when_to_use: Use this mode when implementing features, writing new code, refactoring
+    existing code, debugging issues, optimizing performance, or any task requiring
+    direct code creation or modification.
+- name: Competitive Intelligence Engineer
+  path: agents/competitive-intelligence-engineer.md
+  description: Advanced competitor analysis specialist combining web scraping, NLP
+    sentiment analysis, and strategic modeling for market positioning and competitive
+    advantage
+  when_to_use: Product positioning, feature gap analysis, pricing strategy development,
+    and M&A target evaluation.
+- name: Crumb Grabber
+  path: agents/crumb-grabber.md
+  description: "Cartoon trading antihero who rewrites responses in the irreverent\
+    \ Crumbgrabber persona\u2014zany, anti-prop firm crusader delivering real trading\
+    \ education wrapped in chaotic humor."
+  when_to_use: "Invoke this agent whenever a user requests the Crumbgrabber voice\
+    \ or mentions \u201Ccrumb grabber\u201D as the keyword, or when content needs\
+    \ comedic but substantive trading commentary exposing prop firms and celebrating\
+    \ real broker setups."
+- name: Crypto Trading Expert
+  path: agents/crypto-trading-expert.md
+  description: High-frequency crypto intelligence analyst specialized in integrating
+    options flow, whale tracking, ecosystem health, catalyst radar, and regime detection
+    into actionable trading briefs.
+  when_to_use: Use this agent for daily briefings, catalyst watchlists, options-driven
+    trade ideas, whale flow monitoring, regime classification, or any request that
+    needs fast alignment between derivatives structures, on-chain flows, and ecosystem
+    momentum.
+- name: Cybersecurity Specialist
+  path: agents/cybersecurity-specialist.md
+  description: Expert in penetration testing, threat modeling, security audits, incident
+    response, compliance frameworks. Protects systems with comprehensive security
+    strategies
+  when_to_use: Use this mode for penetration testing, security audits, threat modeling,
+    incident response, compliance assessments, vulnerability assessments, security
+    architecture reviews, and implementing defense strategies.
+- name: Data Cleanup Architect
+  path: agents/data-cleanup-architect.md
+  description: Data hygiene specialist designing automated cleanup pipelines and data
+    quality/governance frameworks for resilient, self-healing datasets.
+  when_to_use: Migrations, pre-analysis prep, legacy modernization, ongoing quality
+    enforcement.
+- name: Data Visualization Engineer
+  path: agents/data-visualization-engineer.md
+  description: Visual storytelling specialist who builds clear, performant dashboards
+    and explorable visuals that drive decisions.
+  when_to_use: Executive reporting, exploratory analysis, dashboards that must be
+    adopted and trusted.
+- name: Debug Specialist
+  path: agents/debug-specialist.md
+  description: Specialized debugging expert who excels at troubleshooting, identifying
+    root causes, and resolving complex software issues using systematic methodologies
+  when_to_use: Use this mode when troubleshooting application errors, resolving performance
+    issues, diagnosing complex bugs, analyzing system failures, investigating production
+    incidents, or any situation requiring methodical problem-solving of technical
+    issues.
+- name: Deep Research Synthesizer
+  path: agents/deep-research-synthesizer.md
+  description: Autonomous research agent for multi-source discovery, cross-checking,
+    and concise synthesis with confidence signals and actionable takeaways.
+  when_to_use: Landscape scans, tech/product comparisons, literature reviews, competitive
+    intelligence, strategic decision support.
+- name: DevOps Automator
+  path: agents/engineering-devops-automator.md
+  description: Expert DevOps engineer specializing in infrastructure automation, CI/CD
+    pipeline development, and cloud operations
+  when_to_use: Expert DevOps engineer specializing in infrastructure automation, CI/CD
+    pipeline development, and cloud operations
+- name: DevOps Specialist
+  path: agents/devops-specialist.md
+  description: "DevOps engineer focused on CI/CD, IaC, container platforms, and observability\u2014\
+    prioritizing reliability, security, and fast feedback."
+  when_to_use: Use this mode when setting up CI/CD pipelines, implementing infrastructure
+    as code, containerizing applications, configuring cloud deployments, automating
+    build processes, or establishing monitoring and observability systems.
+- name: Django Python Specialist
+  path: agents/django-python-specialist.md
+  description: Expert in Django, Wagtail, Django-CMS, Python best practices, ORM optimization.
+    Specializes in robust web applications and content management systems
+  when_to_use: Use this mode when building Django applications, implementing Wagtail
+    CMS, optimizing Django ORM queries, creating Django REST APIs, implementing authentication
+    systems, or Python backend development.
+- name: EvidenceQA
+  path: agents/testing-evidence-collector.md
+  description: Screenshot-obsessed, fantasy-allergic QA specialist\n  - Default to
+    finding 3-5 issues, requires visual proof for everything
+  when_to_use: Screenshot-obsessed, fantasy-allergic QA specialist\n  - Default to
+    finding 3-5 issues, requires visual proof for everything
+- name: Executive Summary Generator
+  path: agents/support-executive-summary-generator.md
+  description: Consultant-grade AI that turns complex inputs into concise, actionable
+    executive summaries for C-suite decisions; SCQA/Pyramid-driven, quantified, and
+    clear on risks/gaps.
+  when_to_use: Consultant-grade AI that turns complex inputs into concise, actionable
+    executive summaries for C-suite decisions; SCQA/Pyramid-driven, quantified, and
+    clear on risks/gaps.
+- name: Experiment Tracker
+  path: agents/project-management-experiment-tracker.md
+  description: Expert project manager specializing in experiment design, execution
+    tracking, and data-driven decision making. Focused on managing A/B tests, feature
+    experiments, and hypothesis validation through systematic experimentation and
+    rigorous analysis.
+  when_to_use: Expert project manager specializing in experiment design, execution
+    tracking, and data-driven decision making. Focused on managing A/B tests, feature
+    experiments, and hypothesis validation through systematic experimentation and
+    rigorous analysis.
+- name: Finance Tracker
+  path: agents/support-finance-tracker.md
+  description: Expert financial analyst and controller specializing in financial planning,
+    budget management, and business performance analysis. Maintains financial health,
+    optimizes cash flow, and provides strategic financial insights for business growth.
+  when_to_use: Expert financial analyst and controller specializing in financial planning,
+    budget management, and business performance analysis. Maintains financial health,
+    optimizes cash flow, and provides strategic financial insights for business growth.
+- name: Financial Research Expert
+  path: agents/financial-research-expert.md
+  description: Institutional-grade financial intelligence analyst delivering sourced
+    market research that fuses prediction markets, options analytics, and macro positioning
+    under strict provenance controls.
+  when_to_use: Invoke this agent for vetted market research, cross-source triangulation,
+    options/prediction market synthesis, or any task demanding compliance-grade sourcing
+    integrity.
+- name: Frontend Developer
+  path: agents/engineering-frontend-developer.md
+  description: Expert frontend developer specializing in modern web technologies,
+    React/Vue/Angular frameworks, UI implementation, and performance optimization
+  when_to_use: Expert frontend developer specializing in modern web technologies,
+    React/Vue/Angular frameworks, UI implementation, and performance optimization
+- name: Frontend UI Specialist
+  path: agents/frontend-ui-specialist.md
+  description: Expert in modern UI frameworks and CSS, building intuitive, accessible,
+    performant interfaces and design systems.
+  when_to_use: Use this mode when building React/Vue components, implementing responsive
+    designs, creating design systems, optimizing frontend performance, ensuring accessibility
+    compliance, or developing interactive user interfaces.
+- name: Futures Trading Expert
+  path: agents/futures-trading-expert.md
+  description: Systematic futures strategist specializing in correlation surveillance,
+    macro policy interpretation, and cross-asset hedging across equity index, crypto,
+    metals, and currency complexes.
+  when_to_use: Deploy this agent for daily futures briefings, bias validation, hedge
+    design, correlation analytics, or any workflow that needs disciplined monitoring
+    of macro drivers and cross-market pair behavior.
+- name: Graphic Designer
+  path: agents/graphic-designer.md
+  description: Visual designer focused on brand-aware assets, UI mockups, and marketing
+    visuals.
+  when_to_use: Brand assets, marketing materials, UI mockups, data visualizations,
+    or any visual communication requiring polish and consistency.
+- name: Infrastructure Maintainer
+  path: agents/support-infrastructure-maintainer.md
+  description: Expert infrastructure specialist focused on system reliability, performance
+    optimization, and technical operations management. Maintains robust, scalable
+    infrastructure supporting business operations with security, performance, and
+    cost efficiency.
+  when_to_use: Expert infrastructure specialist focused on system reliability, performance
+    optimization, and technical operations management. Maintains robust, scalable
+    infrastructure supporting business operations with security, performance, and
+    cost efficiency.
+- name: LSP/Index Engineer
+  path: agents/lsp-index-engineer.md
+  description: Language Server Protocol specialist building unified code intelligence
+    systems through LSP client orchestration and semantic indexing
+  when_to_use: Language Server Protocol specialist building unified code intelligence
+    systems through LSP client orchestration and semantic indexing
+- name: Legal Compliance Checker
+  path: agents/support-legal-compliance-checker.md
+  description: Expert legal and compliance specialist ensuring business operations,
+    data handling, and content creation comply with relevant laws, regulations, and
+    industry standards across multiple jurisdictions.
+  when_to_use: Expert legal and compliance specialist ensuring business operations,
+    data handling, and content creation comply with relevant laws, regulations, and
+    industry standards across multiple jurisdictions.
+- name: Marketing Copywriter Specialist
+  path: agents/marketing-copywriter-specialist.md
+  description: Expert in direct response and conversion copy; grounds persuasion in
+    research, clarity, and testing (no hype/false claims).
+  when_to_use: Use this mode when creating sales copy, email marketing campaigns,
+    landing pages, product launches, conversion optimization, customer research, or
+    direct response marketing materials.
+- name: Mobile App Builder
+  path: agents/engineering-mobile-app-builder.md
+  description: Specialized mobile application developer with expertise in native iOS/Android
+    development and cross-platform frameworks
+  when_to_use: Specialized mobile application developer with expertise in native iOS/Android
+    development and cross-platform frameworks
+- name: Orchestrator Specialist
+  path: agents/orchestrator-specialist.md
+  description: Strategic workflow coordinator and task dispatcher for complex, multi-faceted
+    projects requiring coordination across different specialties. Pure delegation
+    agent that never executes tasks directly
+  when_to_use: Use this mode for complex, multi-faceted projects requiring coordination
+    across different specialties, orchestrating workflows where tasks have dependencies,
+    managing large-scale implementations that benefit from specialized expertise,
+    or anytime you need strategic task breakdown and delegation.
+- name: Performance Benchmarker
+  path: agents/testing-performance-benchmarker.md
+  description: Expert performance testing and optimization specialist focused on measuring,
+    analyzing, and improving system performance across all applications and infrastructure
+  when_to_use: Expert performance testing and optimization specialist focused on measuring,
+    analyzing, and improving system performance across all applications and infrastructure
+- name: Performance Optimization Specialist
+  path: agents/performance-optimization-specialist.md
+  description: Expert in database optimization, caching strategies, load testing,
+    profiling. Identifies and resolves performance bottlenecks across the application
+    stack
+  when_to_use: Use this mode when conducting performance audits, optimizing database
+    queries, implementing caching strategies, load testing applications, profiling
+    code performance, or scaling infrastructure.
+- name: Product Documentation Strategist
+  path: agents/product-documentation-strategist.md
+  description: Product documentation expert creating persona-based content, self-healing
+    knowledge bases, and multi-channel publishing for user success
+  when_to_use: Product launches, feature updates, support ticket reduction initiatives;
+    anytime docs must be accurate, tested, and tailored per persona/channel.
+- name: Project Shepherd
+  path: agents/project-management-project-shepherd.md
+  description: Expert project manager specializing in cross-functional project coordination,
+    timeline management, and stakeholder alignment. Focused on shepherding projects
+    from conception to completion while managing resources, risks, and communications
+    across multiple teams and departments.
+  when_to_use: Expert project manager specializing in cross-functional project coordination,
+    timeline management, and stakeholder alignment. Focused on shepherding projects
+    from conception to completion while managing resources, risks, and communications
+    across multiple teams and departments.
+- name: Quality Control Specialist
+  path: agents/quality-control-specialist.md
+  description: 'Final QC gate: verify deliverables match instructions, code quality,
+    and acceptance criteria; catch LLM/agent errors and send back with concise corrections.'
+  when_to_use: "When work is \u201Cdone\u201D but needs validation; also after 2+\
+    \ rejections."
+- name: Rapid Prototyper
+  path: agents/engineering-rapid-prototyper.md
+  description: Specialized in ultra-fast proof-of-concept development and MVP creation
+    using efficient tools and frameworks
+  when_to_use: Specialized in ultra-fast proof-of-concept development and MVP creation
+    using efficient tools and frameworks
+- name: Repository Cleanup Specialist
+  path: agents/repository-cleanup-specialist.md
+  description: "Safely tidies the repo: finds irrelevant/unnecessary files and folders,\
+    \ flags bloated or absurd content, and proposes rewrites\u2014without breaking\
+    \ working assets."
+  when_to_use: Run this agent after major automation/LLM changes, before releases,
+    or when the repo feels noisy (unused files, duplicate docs, oversized artifacts,
+    bad scaffolding).
+- name: Sales Funnel Specialist
+  path: agents/sales-funnel-specialist.md
+  description: Expert in conversion optimization, lead generation, sales process design,
+    CRM workflows, pipeline management. Creates systematic sales processes that convert
+    prospects into customers
+  when_to_use: Use this mode when designing sales funnels, optimizing conversion rates,
+    creating lead magnets, setting up email nurture sequences, implementing CRM workflows,
+    or analyzing sales performance metrics.
+- name: Startup Agent
+  path: agents/startup-agent.md
+  description: First sync agent prompt files from `D:\codex\agents` into the current
+    local repository (copy missing/new/updated agents into `./agents`). Then ensure
+    the MCP hub and servers are running before the user opens Codex/VS Code, and confirm
+    readiness.
+  when_to_use: Use when starting a session or after MCP outages to guarantee the local
+    repo has the latest agents and the hub and MCP servers are up before using Codex.
+- name: Studio Operations
+  path: agents/project-management-studio-operations.md
+  description: Expert operations manager specializing in day-to-day studio efficiency,
+    process optimization, and resource coordination. Focused on ensuring smooth operations,
+    maintaining productivity standards, and supporting all teams with the tools and
+    processes needed for success.
+  when_to_use: Expert operations manager specializing in day-to-day studio efficiency,
+    process optimization, and resource coordination. Focused on ensuring smooth operations,
+    maintaining productivity standards, and supporting all teams with the tools and
+    processes needed for success.
+- name: Studio Producer
+  path: agents/project-management-studio-producer.md
+  description: Senior strategic leader specializing in high-level creative and technical
+    project orchestration, resource allocation, and multi-project portfolio management.
+    Focused on aligning creative vision with business objectives while managing complex
+    cross-functional initiatives and ensuring optimal studio operations.
+  when_to_use: Senior strategic leader specializing in high-level creative and technical
+    project orchestration, resource allocation, and multi-project portfolio management.
+    Focused on aligning creative vision with business objectives while managing complex
+    cross-functional initiatives and ensuring optimal studio operations.
+- name: Support Responder
+  path: agents/support-support-responder.md
+  description: Expert customer support specialist delivering exceptional customer
+    service, issue resolution, and user experience optimization. Specializes in multi-channel
+    support, proactive customer care, and turning support interactions into positive
+    brand experiences.
+  when_to_use: Expert customer support specialist delivering exceptional customer
+    service, issue resolution, and user experience optimization. Specializes in multi-channel
+    support, proactive customer care, and turning support interactions into positive
+    brand experiences.
+- name: Test Results Analyzer
+  path: agents/testing-test-results-analyzer.md
+  description: Expert test analysis specialist focused on comprehensive test result
+    evaluation, quality metrics analysis, and actionable insight generation from testing
+    activities
+  when_to_use: Expert test analysis specialist focused on comprehensive test result
+    evaluation, quality metrics analysis, and actionable insight generation from testing
+    activities
+- name: Testing Specialist
+  path: agents/testing-specialist.md
+  description: Comprehensive test design and automation lead. Builds lean, high-signal
+    suites (unit/integration/e2e) and enforces quality gates with TDD/ATDD patterns.
+  when_to_use: Use this mode when creating test suites, implementing TDD workflows,
+    setting up test automation, performance testing, security testing, or establishing
+    quality gates for code integration.
+- name: Tool Evaluator
+  path: agents/testing-tool-evaluator.md
+  description: Expert technology assessment specialist focused on evaluating, testing,
+    and recommending tools, software, and platforms for business use and productivity
+    optimization
+  when_to_use: Expert technology assessment specialist focused on evaluating, testing,
+    and recommending tools, software, and platforms for business use and productivity
+    optimization
+- name: UI Designer
+  path: agents/design-ui-designer.md
+  description: Expert UI designer for visual design systems, component libraries,
+    and pixel-perfect, accessible, performant interfaces aligned to brand.
+  when_to_use: Expert UI designer for visual design systems, component libraries,
+    and pixel-perfect, accessible, performant interfaces aligned to brand.
+- name: UX Researcher
+  path: agents/design-ux-researcher.md
+  description: Expert UX researcher for user behavior analysis, usability testing,
+    and data-driven insights; delivers actionable findings to improve usability and
+    satisfaction.
+  when_to_use: Expert UX researcher for user behavior analysis, usability testing,
+    and data-driven insights; delivers actionable findings to improve usability and
+    satisfaction.
+- name: Web Scraping Specialist
+  path: agents/web-scraping-specialist.md
+  description: Technical lead for reliable, scalable, and stealthy web/data extraction
+    across dynamic and static sites using modern browser automation and HTTP clients
+  when_to_use: Use this mode when collecting data from websites, automating browser
+    flows, bypassing bot defenses ethically, building crawlers/pipelines, or debugging/flaking
+    scraping jobs.
+- name: Whimsy Injector
+  path: agents/design-whimsy-injector.md
+  description: Expert creative specialist focused on adding personality, delight,
+    and playful elements to brand experiences. Creates memorable, joyful interactions
+    that differentiate brands through unexpected moments of whimsy
+  when_to_use: Expert creative specialist focused on adding personality, delight,
+    and playful elements to brand experiences. Creates memorable, joyful interactions
+    that differentiate brands through unexpected moments of whimsy
+- name: Wikipedia Editor
+  path: agents/wikipedia-editor.md
+  description: English-first writer who drafts clear, neutral, encyclopedic pages
+    using wiki syntax (XWiki/MediaWiki style) without icons or gimmicks. Focuses on
+    readable structure, clean formatting, and accuracy.
+  when_to_use: Use when you need new or revised wiki articles that read like polished
+    encyclopedia entries, with correct formatting for XWiki and clean internal/external
+    links.
+- name: Workflow Optimizer
+  path: agents/testing-workflow-optimizer.md
+  description: Expert process improvement specialist focused on analyzing, optimizing,
+    and automating workflows across all business functions for maximum productivity
+    and efficiency
+  when_to_use: Expert process improvement specialist focused on analyzing, optimizing,
+    and automating workflows across all business functions for maximum productivity
+    and efficiency
+- name: XR Cockpit Interaction Specialist
+  path: agents/xr-cockpit-interaction-specialist.md
+  description: Specialist in designing and developing immersive cockpit-based control
+    systems for XR environments
+  when_to_use: Specialist in designing and developing immersive cockpit-based control
+    systems for XR environments
+- name: XR Immersive Developer
+  path: agents/xr-immersive-developer.md
+  description: Expert WebXR and immersive technology developer with specialization
+    in browser-based AR/VR/XR applications
+  when_to_use: Expert WebXR and immersive technology developer with specialization
+    in browser-based AR/VR/XR applications
+- name: XR Interface Architect
+  path: agents/xr-interface-architect.md
+  description: Spatial interaction designer and interface strategist for immersive
+    AR/VR/XR environments
+  when_to_use: Spatial interaction designer and interface strategist for immersive
+    AR/VR/XR environments
+- name: XWiki Specialist
+  path: agents/xwiki-specialist.md
+  description: Expert in XWiki (and general wiki platforms) who converts raw content
+    into production-ready wiki pages with correct formatting, templates, macros, permissions,
+    and navigation.
+  when_to_use: Use this agent when creating or refactoring XWiki/Confluence/MediaWiki
+    pages, converting docs into wiki format, building templates/macros, organizing
+    navigation, or fixing rendering/permission issues.
+- name: agents-orchestrator
+  path: agents/agents-orchestrator.md
+  description: Autonomous pipeline manager that orchestrates the entire development
+    workflow. You are the leader of this process.
+  when_to_use: Autonomous pipeline manager that orchestrates the entire development
+    workflow. You are the leader of this process.
+- name: ai-engineer
+  path: agents/ai-engineer.md
+  description: A highly specialized AI agent for designing, building, and optimizing
+    LLM-powered applications, RAG systems, and complex prompt pipelines. This agent
+    implements vector search, orchestrates agentic workflows, and integrates with
+    various AI APIs. Use PROACTIVELY for developing and enhancing LLM features, chatbots,
+    or any AI-driven application.
+  when_to_use: A highly specialized AI agent for designing, building, and optimizing
+    LLM-powered applications, RAG systems, and complex prompt pipelines. This agent
+    implements vector search, orchestrates agentic workflows, and integrates with
+    various AI APIs. Use PROACTIVELY for developing and enhancing LLM features, chatbots,
+    or any AI-driven application.
+- name: api-documenter
+  path: agents/api-documenter.md
+  description: A specialist agent that creates comprehensive, developer-first API
+    documentation. It generates OpenAPI 3.0 specs, code examples, SDK usage guides,
+    and full Postman collections.
+  when_to_use: A specialist agent that creates comprehensive, developer-first API
+    documentation. It generates OpenAPI 3.0 specs, code examples, SDK usage guides,
+    and full Postman collections.
+- name: architect-reviewer
+  path: agents/architect-review.md
+  description: Proactively reviews code for architectural consistency, adherence to
+    patterns, and maintainability. Use after any structural changes, new service introductions,
+    or API modifications to ensure system integrity.
+  when_to_use: Proactively reviews code for architectural consistency, adherence to
+    patterns, and maintainability. Use after any structural changes, new service introductions,
+    or API modifications to ensure system integrity.
+- name: backend-architect
+  path: agents/backend-architect.md
+  description: Acts as a consultative architect to design robust, scalable, and maintainable
+    backend systems. Gathers requirements by first consulting the Context Manager
+    and then asking clarifying questions before proposing a solution.
+  when_to_use: Acts as a consultative architect to design robust, scalable, and maintainable
+    backend systems. Gathers requirements by first consulting the Context Manager
+    and then asking clarifying questions before proposing a solution.
+- name: cloud-architect
+  path: agents/cloud-architect.md
+  description: A senior cloud architect AI that designs scalable, secure, and cost-efficient
+    AWS, Azure, and GCP infrastructure. It specializes in Terraform for Infrastructure
+    as Code (IaC), implements FinOps best practices for cost optimization, and architects
+    multi-cloud and serverless solutions. PROACTIVELY engage for infrastructure planning,
+    cost reduction analysis, or cloud migration strategies.
+  when_to_use: A senior cloud architect AI that designs scalable, secure, and cost-efficient
+    AWS, Azure, and GCP infrastructure. It specializes in Terraform for Infrastructure
+    as Code (IaC), implements FinOps best practices for cost optimization, and architects
+    multi-cloud and serverless solutions. PROACTIVELY engage for infrastructure planning,
+    cost reduction analysis, or cloud migration strategies.
+- name: code-reviewer-pro
+  path: agents/code-reviewer.md
+  description: An AI-powered senior engineering lead that conducts comprehensive code
+    reviews. It analyzes code for quality, security, maintainability, and adherence
+    to best practices, providing clear, actionable, and educational feedback. Use
+    immediately after writing or modifying code.
+  when_to_use: An AI-powered senior engineering lead that conducts comprehensive code
+    reviews. It analyzes code for quality, security, maintainability, and adherence
+    to best practices, providing clear, actionable, and educational feedback. Use
+    immediately after writing or modifying code.
+- name: data-analytics-reporter
+  path: agents/data-analytics-reporter.md
+  description: Expert data analyst transforming raw data into actionable business
+    insights. Creates dashboards, performs statistical analysis, tracks KPIs, and
+    provides strategic decision support through data visualization and reporting.
+  when_to_use: Expert data analyst transforming raw data into actionable business
+    insights. Creates dashboards, performs statistical analysis, tracks KPIs, and
+    provides strategic decision support through data visualization and reporting.
+- name: data-engineer
+  path: agents/data-engineer.md
+  description: Designs, builds, and optimizes scalable and maintainable data-intensive
+    applications, including ETL/ELT pipelines, data warehouses, and real-time streaming
+    architectures. This agent is an expert in Spark, Airflow, and Kafka, and proactively
+    applies data governance and cost-optimization principles. Use for designing new
+    data solutions, optimizing existing data infrastructure, or troubleshooting data
+    pipeline issues.
+  when_to_use: Designs, builds, and optimizes scalable and maintainable data-intensive
+    applications, including ETL/ELT pipelines, data warehouses, and real-time streaming
+    architectures. This agent is an expert in Spark, Airflow, and Kafka, and proactively
+    applies data governance and cost-optimization principles. Use for designing new
+    data solutions, optimizing existing data infrastructure, or troubleshooting data
+    pipeline issues.
+- name: data-scientist
+  path: agents/data-scientist.md
+  description: An expert data scientist specializing in advanced SQL, BigQuery optimization,
+    and actionable data insights. Designed to be a collaborative partner in data exploration
+    and analysis.
+  when_to_use: An expert data scientist specializing in advanced SQL, BigQuery optimization,
+    and actionable data insights. Designed to be a collaborative partner in data exploration
+    and analysis.
+- name: database-optimizer
+  path: agents/database-optimizer.md
+  description: An expert AI assistant for holistically analyzing and optimizing database
+    performance. It identifies and resolves bottlenecks related to SQL queries, indexing,
+    schema design, and infrastructure. Proactively use for performance tuning, schema
+    refinement, and migration planning.
+  when_to_use: An expert AI assistant for holistically analyzing and optimizing database
+    performance. It identifies and resolves bottlenecks related to SQL queries, indexing,
+    schema design, and infrastructure. Proactively use for performance tuning, schema
+    refinement, and migration planning.
+- name: debugger
+  path: agents/debugger.md
+  description: Debugging specialist for errors, test failures, and unexpected behavior.
+    Use proactively when encountering any issues.
+  when_to_use: Debugging specialist for errors, test failures, and unexpected behavior.
+    Use proactively when encountering any issues.
+- name: deployment-engineer
+  path: agents/deployment-engineer.md
+  description: Designs and implements robust CI/CD pipelines, container orchestration,
+    and cloud infrastructure automation. Proactively architects and secures scalable,
+    production-grade deployment workflows using best practices in DevOps and GitOps.
+  when_to_use: Designs and implements robust CI/CD pipelines, container orchestration,
+    and cloud infrastructure automation. Proactively architects and secures scalable,
+    production-grade deployment workflows using best practices in DevOps and GitOps.
+- name: design-visual-storyteller
+  path: agents/design-visual-storyteller.md
+  description: Expert visual communication specialist focused on creating compelling
+    visual narratives, multimedia content, and brand storytelling through design.
+    Specializes in transforming complex information into engaging visual stories that
+    connect with audiences and drive emotional engagement.
+  when_to_use: Expert visual communication specialist focused on creating compelling
+    visual narratives, multimedia content, and brand storytelling through design.
+    Specializes in transforming complex information into engaging visual stories that
+    connect with audiences and drive emotional engagement.
+- name: devops-incident-responder
+  path: agents/devops-incident-responder.md
+  description: A specialized agent for leading incident response, conducting in-depth
+    root cause analysis, and implementing robust fixes for production systems. This
+    agent is an expert in leveraging monitoring and observability tools to proactively
+    identify and resolve system outages and performance degradation.
+  when_to_use: A specialized agent for leading incident response, conducting in-depth
+    root cause analysis, and implementing robust fixes for production systems. This
+    agent is an expert in leveraging monitoring and observability tools to proactively
+    identify and resolve system outages and performance degradation.
+- name: documentation-expert
+  path: agents/documentation-expert.md
+  description: A sophisticated AI Software Documentation Expert for designing, creating,
+    and maintaining comprehensive and user-friendly software documentation. Use PROACTIVELY
+    for developing clear, consistent, and accessible documentation for various audiences,
+    including developers, end-users, and stakeholders.
+  when_to_use: A sophisticated AI Software Documentation Expert for designing, creating,
+    and maintaining comprehensive and user-friendly software documentation. Use PROACTIVELY
+    for developing clear, consistent, and accessible documentation for various audiences,
+    including developers, end-users, and stakeholders.
+- name: dx-optimizer
+  path: agents/dx-optimizer.md
+  description: A specialist in Developer Experience (DX). My purpose is to proactively
+    improve tooling, setup, and workflows, especially when initiating new projects,
+    responding to team feedback, or when friction in the development process is identified.
+  when_to_use: A specialist in Developer Experience (DX). My purpose is to proactively
+    improve tooling, setup, and workflows, especially when initiating new projects,
+    responding to team feedback, or when friction in the development process is identified.
+- name: electron-pro
+  path: agents/electorn-pro.md
+  description: An expert in building cross-platform desktop applications using Electron
+    and TypeScript. Specializes in creating secure, performant, and maintainable applications
+    by leveraging the full potential of web technologies in a desktop environment.
+    Focuses on robust inter-process communication, native system integration, and
+    a seamless user experience. Use PROACTIVELY for developing new Electron applications,
+    refactoring existing ones, or implementing complex desktop-specific features.
+  when_to_use: An expert in building cross-platform desktop applications using Electron
+    and TypeScript. Specializes in creating secure, performant, and maintainable applications
+    by leveraging the full potential of web technologies in a desktop environment.
+    Focuses on robust inter-process communication, native system integration, and
+    a seamless user experience. Use PROACTIVELY for developing new Electron applications,
+    refactoring existing ones, or implementing complex desktop-specific features.
+- name: engineering-senior-developer
+  path: agents/engineering-senior-developer.md
+  description: Premium implementation specialist\n  - Masters Laravel/Livewire/FluxUI,
+    advanced CSS, Three.js integration
+  when_to_use: Premium implementation specialist\n  - Masters Laravel/Livewire/FluxUI,
+    advanced CSS, Three.js integration
+- name: frontend-developer
+  path: agents/frontend-developer.md
+  description: Acts as a senior frontend engineer and AI pair programmer. Builds robust,
+    performant, and accessible React components with a focus on clean architecture
+    and best practices. Use PROACTIVELY when developing new UI features, refactoring
+    existing code, or addressing complex frontend challenges.
+  when_to_use: Acts as a senior frontend engineer and AI pair programmer. Builds robust,
+    performant, and accessible React components with a focus on clean architecture
+    and best practices. Use PROACTIVELY when developing new UI features, refactoring
+    existing code, or addressing complex frontend challenges.
+- name: full-stack-developer
+  path: agents/full-stack-developer.md
+  description: A versatile AI Full Stack Developer proficient in designing, building,
+    and maintaining all aspects of web applications, from the user interface to the
+    server-side logic and database management. Use PROACTIVELY for end-to-end application
+    development, ensuring seamless integration and functionality across the entire
+    technology stack.
+  when_to_use: A versatile AI Full Stack Developer proficient in designing, building,
+    and maintaining all aspects of web applications, from the user interface to the
+    server-side logic and database management. Use PROACTIVELY for end-to-end application
+    development, ensuring seamless integration and functionality across the entire
+    technology stack.
+- name: git_specialist
+  path: agents/git_specialist.md
+  description: "Handle anything related to Git\u2014commits, branches, merges, rebases,\
+    \ remotes, force pushes, history cleanup, ignore rules, and repository hygiene.\
+    \ Summarize plans briefly, call out risks (especially destructive actions), and\
+    \ provide exact commands with context."
+  when_to_use: Keywords like git, repo, commit, push, pull, merge, rebase, branch,
+    tag, reset, clean, ignore, stash, history, force, remote, GitHub/GitLab, CI failing
+    due to Git.
+- name: golang-pro
+  path: agents/golang-pro.md
+  description: A Go expert that architects, writes, and refactors robust, concurrent,
+    and highly performant Go applications. It provides detailed explanations for its
+    design choices, focusing on idiomatic code, long-term maintainability, and operational
+    excellence. Use PROACTIVELY for architectural design, deep code reviews, performance
+    tuning, and complex concurrency challenges.
+  when_to_use: A Go expert that architects, writes, and refactors robust, concurrent,
+    and highly performant Go applications. It provides detailed explanations for its
+    design choices, focusing on idiomatic code, long-term maintainability, and operational
+    excellence. Use PROACTIVELY for architectural design, deep code reviews, performance
+    tuning, and complex concurrency challenges.
+- name: graphql-architect
+  path: agents/graphql-architect.md
+  description: A highly specialized AI agent for designing, implementing, and optimizing
+    high-performance, scalable, and secure GraphQL APIs. It excels at schema architecture,
+    resolver optimization, federated services, and real-time data with subscriptions.
+    Use this agent for greenfield GraphQL projects, performance auditing, or refactoring
+    existing GraphQL APIs.
+  when_to_use: A highly specialized AI agent for designing, implementing, and optimizing
+    high-performance, scalable, and secure GraphQL APIs. It excels at schema architecture,
+    resolver optimization, federated services, and real-time data with subscriptions.
+    Use this agent for greenfield GraphQL projects, performance auditing, or refactoring
+    existing GraphQL APIs.
+- name: incident-responder
+  path: agents/incident-responder.md
+  description: A battle-tested Incident Commander persona for leading the response
+    to critical production incidents with urgency, precision, and clear communication,
+    based on Google SRE and other industry best practices. Use IMMEDIATELY when production
+    issues occur.
+  when_to_use: A battle-tested Incident Commander persona for leading the response
+    to critical production incidents with urgency, precision, and clear communication,
+    based on Google SRE and other industry best practices. Use IMMEDIATELY when production
+    issues occur.
+- name: legacy-modernizer
+  path: agents/legacy-modernizer.md
+  description: A specialist agent for planning and executing the incremental modernization
+    of legacy systems. It refactors aging codebases, migrates outdated frameworks,
+    and decomposes monoliths safely. Use this to reduce technical debt, improve maintainability,
+    and upgrade technology stacks without disrupting operations.
+  when_to_use: A specialist agent for planning and executing the incremental modernization
+    of legacy systems. It refactors aging codebases, migrates outdated frameworks,
+    and decomposes monoliths safely. Use this to reduce technical debt, improve maintainability,
+    and upgrade technology stacks without disrupting operations.
+- name: macOS Spatial/Metal Engineer
+  path: agents/macos-spatial-metal-engineer.md
+  description: Native Swift and Metal specialist building high-performance 3D rendering
+    systems and spatial computing experiences for macOS and Vision Pro
+  when_to_use: Native Swift and Metal specialist building high-performance 3D rendering
+    systems and spatial computing experiences for macOS and Vision Pro
+- name: marketing-content-creator
+  path: agents/marketing-content-creator.md
+  description: Expert content strategist and creator for multi-platform campaigns.
+    Develops editorial calendars, creates compelling copy, manages brand storytelling,
+    and optimizes content for engagement across all digital channels.
+  when_to_use: Expert content strategist and creator for multi-platform campaigns.
+    Develops editorial calendars, creates compelling copy, manages brand storytelling,
+    and optimizes content for engagement across all digital channels.
+- name: marketing-growth-hacker
+  path: agents/marketing-growth-hacker.md
+  description: Expert growth strategist specializing in rapid user acquisition through
+    data-driven experimentation. Develops viral loops, optimizes conversion funnels,
+    and finds scalable growth channels for exponential business growth.
+  when_to_use: Expert growth strategist specializing in rapid user acquisition through
+    data-driven experimentation. Develops viral loops, optimizes conversion funnels,
+    and finds scalable growth channels for exponential business growth.
+- name: marketing-instagram-curator
+  path: agents/marketing-instagram-curator.md
+  description: Expert Instagram marketing specialist focused on visual storytelling,
+    community building, and multi-format content optimization. Masters aesthetic development
+    and drives meaningful engagement.
+  when_to_use: Expert Instagram marketing specialist focused on visual storytelling,
+    community building, and multi-format content optimization. Masters aesthetic development
+    and drives meaningful engagement.
+- name: marketing-reddit-community-builder
+  path: agents/marketing-reddit-community-builder.md
+  description: Expert Reddit marketing specialist focused on authentic community engagement,
+    value-driven content creation, and long-term relationship building. Masters Reddit
+    culture navigation.
+  when_to_use: Expert Reddit marketing specialist focused on authentic community engagement,
+    value-driven content creation, and long-term relationship building. Masters Reddit
+    culture navigation.
+- name: marketing-social-media-strategist
+  path: agents/marketing-social-media-strategist.md
+  description: Expert social strategist for X/Twitter (and cross-posting), builds
+    community/thought leadership with real-time, ethical engagement.
+  when_to_use: Expert social strategist for X/Twitter (and cross-posting), builds
+    community/thought leadership with real-time, ethical engagement.
+- name: marketing-tiktok-strategist
+  path: agents/marketing-tiktok-strategist.md
+  description: Expert TikTok marketing specialist focused on viral content creation,
+    algorithm optimization, and community building. Masters TikTok's unique culture
+    and features for brand growth.
+  when_to_use: Expert TikTok marketing specialist focused on viral content creation,
+    algorithm optimization, and community building. Masters TikTok's unique culture
+    and features for brand growth.
+- name: marketing-twitter-engager
+  path: agents/marketing-twitter-engager.md
+  description: Expert Twitter/X engagement specialist for real-time conversation,
+    thought leadership, and community growth with ethical practices.
+  when_to_use: Expert Twitter/X engagement specialist for real-time conversation,
+    thought leadership, and community growth with ethical practices.
+- name: ml-engineer
+  path: agents/ml-engineer.md
+  description: Designs, builds, and manages the end-to-end lifecycle of machine learning
+    models in production. Specializes in creating scalable, reliable, and automated
+    ML systems. Use PROACTIVELY for tasks involving the deployment, monitoring, and
+    maintenance of ML models.
+  when_to_use: Designs, builds, and manages the end-to-end lifecycle of machine learning
+    models in production. Specializes in creating scalable, reliable, and automated
+    ML systems. Use PROACTIVELY for tasks involving the deployment, monitoring, and
+    maintenance of ML models.
+- name: mobile-developer
+  path: agents/mobile-developer.md
+  description: Architects and leads the development of sophisticated, cross-platform
+    mobile applications using React Native and Flutter. This role demands proactive
+    leadership in mobile strategy, ensuring robust native integrations, scalable architecture,
+    and impeccable user experiences. Key responsibilities include managing offline
+    data synchronization, implementing comprehensive push notification systems, and
+    navigating the complexities of app store deployments.
+  when_to_use: Architects and leads the development of sophisticated, cross-platform
+    mobile applications using React Native and Flutter. This role demands proactive
+    leadership in mobile strategy, ensuring robust native integrations, scalable architecture,
+    and impeccable user experiences. Key responsibilities include managing offline
+    data synchronization, implementing comprehensive push notification systems, and
+    navigating the complexities of app store deployments.
+- name: nextjs-pro
+  path: agents/nextjs-pro.md
+  description: An expert Next.js developer specializing in building high-performance,
+    scalable, and SEO-friendly web applications.Leverages the full potential of Next.js,
+    including Server-Side Rendering (SSR), Static Site Generation (SSG), and the App
+    Router.Focuses on modern development practices, robust testing, and creating exceptional
+    user experiences. Use PROACTIVELY for architecting new Next.js projects, performance
+    optimization, or implementing complex features.
+  when_to_use: An expert Next.js developer specializing in building high-performance,
+    scalable, and SEO-friendly web applications.Leverages the full potential of Next.js,
+    including Server-Side Rendering (SSR), Static Site Generation (SSG), and the App
+    Router.Focuses on modern development practices, robust testing, and creating exceptional
+    user experiences. Use PROACTIVELY for architecting new Next.js projects, performance
+    optimization, or implementing complex features.
+- name: performance-engineer
+  path: agents/performance-engineer.md
+  description: A senior-level performance engineer who defines and executes a comprehensive
+    performance strategy. This role involves proactive identification of potential
+    bottlenecks in the entire software development lifecycle, leading cross-team optimization
+    efforts, and mentoring other engineers. Use PROACTIVELY for architecting for scale,
+    resolving complex performance issues, and establishing a culture of performance.
+  when_to_use: A senior-level performance engineer who defines and executes a comprehensive
+    performance strategy. This role involves proactive identification of potential
+    bottlenecks in the entire software development lifecycle, leading cross-team optimization
+    efforts, and mentoring other engineers. Use PROACTIVELY for architecting for scale,
+    resolving complex performance issues, and establishing a culture of performance.
+- name: postgresql-pglite-pro
+  path: agents/postgres-pro.md
+  description: An expert in PostgreSQL and Pglite, specializing in robust database
+    architecture, performance tuning, and the implementation of in-browser database
+    solutions. Excels at designing efficient data models, optimizing queries for speed
+    and reliability, and leveraging Pglite for innovative web applications. Use PROACTIVELY
+    for database design, query optimization, and implementing client-side database
+    functionalities.
+  when_to_use: An expert in PostgreSQL and Pglite, specializing in robust database
+    architecture, performance tuning, and the implementation of in-browser database
+    solutions. Excels at designing efficient data models, optimizing queries for speed
+    and reliability, and leveraging Pglite for innovative web applications. Use PROACTIVELY
+    for database design, query optimization, and implementing client-side database
+    functionalities.
+- name: product-feedback-synthesizer
+  path: agents/product-feedback-synthesizer.md
+  description: Expert in collecting, analyzing, and synthesizing user feedback from
+    multiple channels to extract actionable product insights. Transforms qualitative
+    feedback into quantitative priorities and strategic recommendations.
+  when_to_use: Expert in collecting, analyzing, and synthesizing user feedback from
+    multiple channels to extract actionable product insights. Transforms qualitative
+    feedback into quantitative priorities and strategic recommendations.
+- name: product-manager
+  path: agents/product-manager.md
+  description: A strategic and customer-focused AI Product Manager for defining product
+    vision, strategy, and roadmaps, and leading cross-functional teams to deliver
+    successful products. Use PROACTIVELY for developing product strategies, prioritizing
+    features, and ensuring alignment between business goals and user needs.
+  when_to_use: A strategic and customer-focused AI Product Manager for defining product
+    vision, strategy, and roadmaps, and leading cross-functional teams to deliver
+    successful products. Use PROACTIVELY for developing product strategies, prioritizing
+    features, and ensuring alignment between business goals and user needs.
+- name: product-sprint-prioritizer
+  path: agents/product-sprint-prioritizer.md
+  description: Expert product manager specializing in agile sprint planning, feature
+    prioritization, and resource allocation. Focused on maximizing team velocity and
+    business value delivery through data-driven prioritization frameworks.
+  when_to_use: Expert product manager specializing in agile sprint planning, feature
+    prioritization, and resource allocation. Focused on maximizing team velocity and
+    business value delivery through data-driven prioritization frameworks.
+- name: product-trend-researcher
+  path: agents/product-trend-researcher.md
+  description: Expert market intelligence analyst specializing in identifying emerging
+    trends, competitive analysis, and opportunity assessment. Focused on providing
+    actionable insights that drive product strategy and innovation decisions.
+  when_to_use: Expert market intelligence analyst specializing in identifying emerging
+    trends, competitive analysis, and opportunity assessment. Focused on providing
+    actionable insights that drive product strategy and innovation decisions.
+- name: project-manager-senior
+  path: agents/project-manager-senior.md
+  description: Converts specs to tasks, remembers previous projects\n - Focused on
+    realistic scope, no background processes, exact spec requirements
+  when_to_use: Converts specs to tasks, remembers previous projects\n - Focused on
+    realistic scope, no background processes, exact spec requirements
+- name: prompt-engineer
+  path: agents/prompt-engineer.md
+  description: A master prompt engineer who architects and optimizes sophisticated
+    LLM interactions. Use for designing advanced AI systems, pushing model performance
+    to its limits, and creating robust, safe, and reliable agentic workflows. Expert
+    in a wide array of advanced prompting techniques, model-specific nuances, and
+    ethical AI design.
+  when_to_use: A master prompt engineer who architects and optimizes sophisticated
+    LLM interactions. Use for designing advanced AI systems, pushing model performance
+    to its limits, and creating robust, safe, and reliable agentic workflows. Expert
+    in a wide array of advanced prompting techniques, model-specific nuances, and
+    ethical AI design.
+- name: python-pro
+  path: agents/python-pro.md
+  description: An expert Python developer specializing in writing clean, performant,
+    and idiomatic code. Leverages advanced Python features, including decorators,
+    generators, and async/await. Focuses on optimizing performance, implementing established
+    design patterns, and ensuring comprehensive test coverage. Use PROACTIVELY for
+    Python refactoring, optimization, or implementing complex features.
+  when_to_use: An expert Python developer specializing in writing clean, performant,
+    and idiomatic code. Leverages advanced Python features, including decorators,
+    generators, and async/await. Focuses on optimizing performance, implementing established
+    design patterns, and ensuring comprehensive test coverage. Use PROACTIVELY for
+    Python refactoring, optimization, or implementing complex features.
+- name: qa-expert
+  path: agents/qa-expert.md
+  description: A sophisticated AI Quality Assurance (QA) Expert for designing, implementing,
+    and managing comprehensive QA processes to ensure software products meet the highest
+    standards of quality, reliability, and user satisfaction. Use PROACTIVELY for
+    developing testing strategies, executing detailed test plans, and providing data-driven
+    feedback to development teams.
+  when_to_use: A sophisticated AI Quality Assurance (QA) Expert for designing, implementing,
+    and managing comprehensive QA processes to ensure software products meet the highest
+    standards of quality, reliability, and user satisfaction. Use PROACTIVELY for
+    developing testing strategies, executing detailed test plans, and providing data-driven
+    feedback to development teams.
+- name: react-pro
+  path: agents/react-pro.md
+  description: An expert React developer specializing in creating modern, performant,
+    and scalable web applications. Emphasizes a component-based architecture, clean
+    code, and a seamless user experience. Leverages advanced React features like Hooks
+    and the Context API, and is proficient in state management and performance optimization.
+    Use PROACTIVELY for developing new React components, refactoring existing code,
+    and solving complex UI challenges.
+  when_to_use: An expert React developer specializing in creating modern, performant,
+    and scalable web applications. Emphasizes a component-based architecture, clean
+    code, and a seamless user experience. Leverages advanced React features like Hooks
+    and the Context API, and is proficient in state management and performance optimization.
+    Use PROACTIVELY for developing new React components, refactoring existing code,
+    and solving complex UI challenges.
+- name: security-auditor
+  path: agents/security-auditor.md
+  description: A senior application security auditor and ethical hacker, specializing
+    in identifying, evaluating, and mitigating security vulnerabilities throughout
+    the entire software development lifecycle. Use PROACTIVELY for comprehensive security
+    assessments, penetration testing, secure code reviews, and ensuring compliance
+    with industry standards like OWASP, NIST, and ISO 27001.
+  when_to_use: A senior application security auditor and ethical hacker, specializing
+    in identifying, evaluating, and mitigating security vulnerabilities throughout
+    the entire software development lifecycle. Use PROACTIVELY for comprehensive security
+    assessments, penetration testing, secure code reviews, and ensuring compliance
+    with industry standards like OWASP, NIST, and ISO 27001.
+- name: terminal-integration-specialist
+  path: agents/terminal-integration-specialist.md
+  description: Terminal emulation, text rendering optimization, and SwiftTerm integration
+    for modern Swift applications.
+  when_to_use: Terminal emulation, text rendering optimization, and SwiftTerm integration
+    for modern Swift applications.
+- name: test-automator
+  path: agents/test-automator.md
+  description: A Test Automation Specialist responsible for designing, implementing,
+    and maintaining a comprehensive automated testing strategy. This role focuses
+    on building robust test suites, setting up and managing CI/CD pipelines for testing,
+    and ensuring high standards of quality and reliability across the software development
+    lifecycle. Use PROACTIVELY for improving test coverage, setting up test automation
+    from scratch, or optimizing testing processes.
+  when_to_use: A Test Automation Specialist responsible for designing, implementing,
+    and maintaining a comprehensive automated testing strategy. This role focuses
+    on building robust test suites, setting up and managing CI/CD pipelines for testing,
+    and ensuring high standards of quality and reliability across the software development
+    lifecycle. Use PROACTIVELY for improving test coverage, setting up test automation
+    from scratch, or optimizing testing processes.
+- name: testing-reality-checker
+  path: agents/testing-reality-checker.md
+  description: Stops fantasy approvals; defaults to "NEEDS WORK" unless overwhelming
+    evidence proves readiness.
+  when_to_use: Stops fantasy approvals; defaults to "NEEDS WORK" unless overwhelming
+    evidence proves readiness.
+- name: typescript-pro
+  path: agents/typescript-pro.md
+  description: A TypeScript expert who architects, writes, and refactors scalable,
+    type-safe, and maintainable applications for Node.js and browser environments.
+    It provides detailed explanations for its architectural decisions, focusing on
+    idiomatic code, robust testing, and long-term health of the codebase. Use PROACTIVELY
+    for architectural design, complex type-level programming, performance tuning,
+    and refactoring large codebases.
+  when_to_use: A TypeScript expert who architects, writes, and refactors scalable,
+    type-safe, and maintainable applications for Node.js and browser environments.
+    It provides detailed explanations for its architectural decisions, focusing on
+    idiomatic code, robust testing, and long-term health of the codebase. Use PROACTIVELY
+    for architectural design, complex type-level programming, performance tuning,
+    and refactoring large codebases.
+- name: ui-designer
+  path: agents/ui-designer.md
+  description: A creative and detail-oriented AI UI Designer focused on creating visually
+    appealing, intuitive, and user-friendly interfaces for digital products. Use PROACTIVELY
+    for designing and prototyping user interfaces, developing design systems, and
+    ensuring a consistent and engaging user experience across all platforms.
+  when_to_use: A creative and detail-oriented AI UI Designer focused on creating visually
+    appealing, intuitive, and user-friendly interfaces for digital products. Use PROACTIVELY
+    for designing and prototyping user interfaces, developing design systems, and
+    ensuring a consistent and engaging user experience across all platforms.
+- name: ux-designer
+  path: agents/ux-designer.md
+  description: A creative and empathetic professional focused on enhancing user satisfaction
+    by improving the usability, accessibility, and pleasure provided in the interaction
+    between the user and a product. Use PROACTIVELY to advocate for the user's needs
+    throughout the entire design process, from initial research to final implementation.
+  when_to_use: A creative and empathetic professional focused on enhancing user satisfaction
+    by improving the usability, accessibility, and pleasure provided in the interaction
+    between the user and a product. Use PROACTIVELY to advocate for the user's needs
+    throughout the entire design process, from initial research to final implementation.
+- name: visionos-spatial-engineer
+  path: agents/visionos-spatial-engineer.md
+  description: Native visionOS spatial computing, SwiftUI volumetric interfaces, and
+    Liquid Glass design implementation.
+  when_to_use: Native visionOS spatial computing, SwiftUI volumetric interfaces, and
+    Liquid Glass design implementation.
+- name: windows-11-specialist
+  path: agents/windows-11-specialist.md
+  description: Guide users through Windows 11 setup, customization, troubleshooting,
+    power-user tweaks, and safe workarounds (shell, registry/group policy edits, services,
+    networking, WSL, virtualization, file system). Prioritize clarity, reversible
+    steps, and call out risk before system changes.
+  when_to_use: Any Windows 11 request about settings, UI tweaks, performance, privacy,
+    shell/PowerShell, registry/GPO, services/startup, drivers/devices, networking/VPN,
+    WSL, Hyper-V/VMs, scripting/automation, Explorer shortcuts, fonts/themes, taskbar/start
+    tweaks.
+skills:
+- name: algorithmic-art
+  path: skills/algorithmic-art/SKILL.md
+  description: Creating algorithmic art using p5.js with seeded randomness and interactive
+    parameter exploration. Use this when users request creating art using code, generative
+    art, algorithmic art, flow fields, or particle systems. Create original algorithmic
+    art rather than copying existing artists' work to avoid copyright violations.
+  when_to_use: Creating algorithmic art using p5.js with seeded randomness and interactive
+    parameter exploration. Use this when users request creating art using code, generative
+    art, algorithmic art, flow fields, or particle systems. Create original algorithmic
+    art rather than copying existing artists' work to avoid copyright violations.
+- name: artifacts-builder
+  path: skills/artifacts-builder/SKILL.md
+  description: Suite of tools for creating elaborate, multi-component HTML artifacts
+    using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for
+    complex artifacts requiring state management, routing, or shadcn/ui components
+    - not for simple single-file HTML/JSX artifacts.
+  when_to_use: Suite of tools for creating elaborate, multi-component HTML artifacts
+    using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for
+    complex artifacts requiring state management, routing, or shadcn/ui components
+    - not for simple single-file HTML/JSX artifacts.
+- name: brainstorming
+  path: skills/brainstorming/SKILL.md
+  description: Use when creating or developing, before writing code or implementation
+    plans - refines rough ideas into fully-formed designs through collaborative questioning,
+    alternative exploration, and incremental validation. Don't use during clear 'mechanical'
+    processes
+  when_to_use: Use when creating or developing, before writing code or implementation
+    plans - refines rough ideas into fully-formed designs through collaborative questioning,
+    alternative exploration, and incremental validation. Don't use during clear 'mechanical'
+    processes
+- name: brand-guidelines
+  path: skills/brand-guidelines/SKILL.md
+  description: Applies Anthropic's official brand colors and typography to any sort
+    of artifact that may benefit from having Anthropic's look-and-feel. Use it when
+    brand colors or style guidelines, visual formatting, or company design standards
+    apply.
+  when_to_use: Applies Anthropic's official brand colors and typography to any sort
+    of artifact that may benefit from having Anthropic's look-and-feel. Use it when
+    brand colors or style guidelines, visual formatting, or company design standards
+    apply.
+- name: canvas-design
+  path: skills/canvas-design/SKILL.md
+  description: Create beautiful visual art in .png and .pdf documents using design
+    philosophy. You should use this skill when the user asks to create a poster, piece
+    of art, design, or other static piece. Create original visual designs, never copying
+    existing artists' work to avoid copyright violations.
+  when_to_use: Create beautiful visual art in .png and .pdf documents using design
+    philosophy. You should use this skill when the user asks to create a poster, piece
+    of art, design, or other static piece. Create original visual designs, never copying
+    existing artists' work to avoid copyright violations.
+- name: changelog-generator
+  path: skills/changelog-generator/SKILL.md
+  description: Automatically creates user-facing changelogs from git commits by analyzing
+    commit history, categorizing changes, and transforming technical commits into
+    clear, customer-friendly release notes. Turns hours of manual changelog writing
+    into minutes of automated generation.
+  when_to_use: Automatically creates user-facing changelogs from git commits by analyzing
+    commit history, categorizing changes, and transforming technical commits into
+    clear, customer-friendly release notes. Turns hours of manual changelog writing
+    into minutes of automated generation.
+- name: competitive-ads-extractor
+  path: skills/competitive-ads-extractor/SKILL.md
+  description: Extracts and analyzes competitors' ads from ad libraries (Facebook,
+    LinkedIn, etc.) to understand what messaging, problems, and creative approaches
+    are working. Helps inspire and improve your own ad campaigns.
+  when_to_use: Extracts and analyzes competitors' ads from ad libraries (Facebook,
+    LinkedIn, etc.) to understand what messaging, problems, and creative approaches
+    are working. Helps inspire and improve your own ad campaigns.
+- name: condition-based-waiting
+  path: skills/condition-based-waiting/SKILL.md
+  description: Use when tests have race conditions, timing dependencies, or inconsistent
+    pass/fail behavior - replaces arbitrary timeouts with condition polling to wait
+    for actual state changes, eliminating flaky tests from timing guesses
+  when_to_use: Use when tests have race conditions, timing dependencies, or inconsistent
+    pass/fail behavior - replaces arbitrary timeouts with condition polling to wait
+    for actual state changes, eliminating flaky tests from timing guesses
+- name: content-research-writer
+  path: skills/content-research-writer/SKILL.md
+  description: Assists in writing high-quality content by conducting research, adding
+    citations, improving hooks, iterating on outlines, and providing real-time feedback
+    on each section. Transforms your writing process from solo effort to collaborative
+    partnership.
+  when_to_use: Assists in writing high-quality content by conducting research, adding
+    citations, improving hooks, iterating on outlines, and providing real-time feedback
+    on each section. Transforms your writing process from solo effort to collaborative
+    partnership.
+- name: defense-in-depth
+  path: skills/defense-in-depth/SKILL.md
+  description: Use when invalid data causes failures deep in execution, requiring
+    validation at multiple system layers - validates at every layer data passes through
+    to make bugs structurally impossible
+  when_to_use: Use when invalid data causes failures deep in execution, requiring
+    validation at multiple system layers - validates at every layer data passes through
+    to make bugs structurally impossible
+- name: developer-growth-analysis
+  path: skills/developer-growth-analysis/SKILL.md
+  description: Analyzes your recent coding chat history to identify patterns, development
+    gaps, and areas for improvement, curates relevant learning resources from HackerNews,
+    and automatically sends a personalized growth report to your Slack DMs.
+  when_to_use: Analyzes your recent coding chat history to identify patterns, development
+    gaps, and areas for improvement, curates relevant learning resources from HackerNews,
+    and automatically sends a personalized growth report to your Slack DMs.
+- name: dispatching-parallel-agents
+  path: skills/dispatching-parallel-agents/SKILL.md
+  description: Use when facing 3+ independent failures that can be investigated without
+    shared state or dependencies - dispatches multiple Claude agents to investigate
+    and fix independent problems concurrently
+  when_to_use: Use when facing 3+ independent failures that can be investigated without
+    shared state or dependencies - dispatches multiple Claude agents to investigate
+    and fix independent problems concurrently
+- name: docx
+  path: skills/docx/SKILL.md
+  description: 'Comprehensive document creation, editing, and analysis with support
+    for tracked changes, comments, formatting preservation, and text extraction. When
+    Claude needs to work with professional documents (.docx files) for: (1) Creating
+    new documents, (2) Modifying or editing content, (3) Working with tracked changes,
+    (4) Adding comments, or any other document tasks'
+  when_to_use: 'Comprehensive document creation, editing, and analysis with support
+    for tracked changes, comments, formatting preservation, and text extraction. When
+    Claude needs to work with professional documents (.docx files) for: (1) Creating
+    new documents, (2) Modifying or editing content, (3) Working with tracked changes,
+    (4) Adding comments, or any other document tasks'
+- name: domain-name-brainstormer
+  path: skills/domain-name-brainstormer/SKILL.md
+  description: Generates creative domain name ideas for your project and checks availability
+    across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming
+    and manual checking.
+  when_to_use: Generates creative domain name ideas for your project and checks availability
+    across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming
+    and manual checking.
+- name: email-composer
+  path: skills/email-composer/SKILL.md
+  description: Draft professional emails for various contexts including business,
+    technical, and customer communication. Use when the user needs help writing emails
+    or composing professional messages.
+  when_to_use: Draft professional emails for various contexts including business,
+    technical, and customer communication. Use when the user needs help writing emails
+    or composing professional messages.
+- name: excel-analysis
+  path: skills/excel-analysis/SKILL.md
+  description: Analyze Excel spreadsheets, create pivot tables, generate charts, and
+    perform data analysis. Use when analyzing Excel files, spreadsheets, tabular data,
+    or .xlsx files.
+  when_to_use: Analyze Excel spreadsheets, create pivot tables, generate charts, and
+    perform data analysis. Use when analyzing Excel files, spreadsheets, tabular data,
+    or .xlsx files.
+- name: executing-plans
+  path: skills/executing-plans/SKILL.md
+  description: Use when partner provides a complete implementation plan to execute
+    in controlled batches with review checkpoints - loads plan, reviews critically,
+    executes tasks in batches, reports for review between batches
+  when_to_use: Use when partner provides a complete implementation plan to execute
+    in controlled batches with review checkpoints - loads plan, reviews critically,
+    executes tasks in batches, reports for review between batches
+- name: file-organizer
+  path: skills/file-organizer/SKILL.md
+  description: Intelligently organizes your files and folders across your computer
+    by understanding context, finding duplicates, suggesting better structures, and
+    automating cleanup tasks. Reduces cognitive load and keeps your digital workspace
+    tidy without manual effort.
+  when_to_use: Intelligently organizes your files and folders across your computer
+    by understanding context, finding duplicates, suggesting better structures, and
+    automating cleanup tasks. Reduces cognitive load and keeps your digital workspace
+    tidy without manual effort.
+- name: finishing-a-development-branch
+  path: skills/finishing-a-development-branch/SKILL.md
+  description: Use when implementation is complete, all tests pass, and you need to
+    decide how to integrate the work - guides completion of development work by presenting
+    structured options for merge, PR, or cleanup
+  when_to_use: Use when implementation is complete, all tests pass, and you need to
+    decide how to integrate the work - guides completion of development work by presenting
+    structured options for merge, PR, or cleanup
+- name: frontend-design
+  path: skills/frontend-design/SKILL.md
+  description: Create distinctive, production-grade frontend interfaces with high
+    design quality. Use this skill when the user asks to build web components, pages,
+    or applications. Generates creative, polished code that avoids generic AI aesthetics.
+  when_to_use: Create distinctive, production-grade frontend interfaces with high
+    design quality. Use this skill when the user asks to build web components, pages,
+    or applications. Generates creative, polished code that avoids generic AI aesthetics.
+- name: git-commit-helper
+  path: skills/git-commit-helper/SKILL.md
+  description: Generate descriptive commit messages by analyzing git diffs. Use when
+    the user asks for help writing commit messages or reviewing staged changes.
+  when_to_use: Generate descriptive commit messages by analyzing git diffs. Use when
+    the user asks for help writing commit messages or reviewing staged changes.
+- name: image-enhancer
+  path: skills/image-enhancer/SKILL.md
+  description: Improves the quality of images, especially screenshots, by enhancing
+    resolution, sharpness, and clarity. Perfect for preparing images for presentations,
+    documentation, or social media posts.
+  when_to_use: Improves the quality of images, especially screenshots, by enhancing
+    resolution, sharpness, and clarity. Perfect for preparing images for presentations,
+    documentation, or social media posts.
+- name: internal-comms
+  path: skills/internal-comms/SKILL.md
+  description: A set of resources to help me write all kinds of internal communications,
+    using the formats that my company likes to use. Claude should use this skill whenever
+    asked to write some sort of internal communications (status reports, leadership
+    updates, 3P updates, company newsletters, FAQs, incident reports, project updates,
+    etc.).
+  when_to_use: A set of resources to help me write all kinds of internal communications,
+    using the formats that my company likes to use. Claude should use this skill whenever
+    asked to write some sort of internal communications (status reports, leadership
+    updates, 3P updates, company newsletters, FAQs, incident reports, project updates,
+    etc.).
+- name: invoice-organizer
+  path: skills/invoice-organizer/SKILL.md
+  description: Automatically organizes invoices and receipts for tax preparation by
+    reading messy files, extracting key information, renaming them consistently, and
+    sorting them into logical folders. Turns hours of manual bookkeeping into minutes
+    of automated organization.
+  when_to_use: Automatically organizes invoices and receipts for tax preparation by
+    reading messy files, extracting key information, renaming them consistently, and
+    sorting them into logical folders. Turns hours of manual bookkeeping into minutes
+    of automated organization.
+- name: lead-research-assistant
+  path: skills/lead-research-assistant/SKILL.md
+  description: Identifies high-quality leads for your product or service by analyzing
+    your business, searching for target companies, and providing actionable contact
+    strategies. Perfect for sales, business development, and marketing professionals.
+  when_to_use: Identifies high-quality leads for your product or service by analyzing
+    your business, searching for target companies, and providing actionable contact
+    strategies. Perfect for sales, business development, and marketing professionals.
+- name: mcp-builder
+  path: skills/mcp-builder/SKILL.md
+  description: Guide for creating high-quality MCP (Model Context Protocol) servers
+    that enable LLMs to interact with external services through well-designed tools.
+    Use when building MCP servers to integrate external APIs or services, whether
+    in Python (FastMCP) or Node/TypeScript (MCP SDK).
+  when_to_use: Guide for creating high-quality MCP (Model Context Protocol) servers
+    that enable LLMs to interact with external services through well-designed tools.
+    Use when building MCP servers to integrate external APIs or services, whether
+    in Python (FastMCP) or Node/TypeScript (MCP SDK).
+- name: meeting-insights-analyzer
+  path: skills/meeting-insights-analyzer/SKILL.md
+  description: Analyzes meeting transcripts and recordings to uncover behavioral patterns,
+    communication insights, and actionable feedback. Identifies when you avoid conflict,
+    use filler words, dominate conversations, or miss opportunities to listen. Perfect
+    for professionals seeking to improve their communication and leadership skills.
+  when_to_use: Analyzes meeting transcripts and recordings to uncover behavioral patterns,
+    communication insights, and actionable feedback. Identifies when you avoid conflict,
+    use filler words, dominate conversations, or miss opportunities to listen. Perfect
+    for professionals seeking to improve their communication and leadership skills.
+- name: pdf
+  path: skills/pdf/SKILL.md
+  description: Comprehensive PDF manipulation toolkit for extracting text and tables,
+    creating new PDFs, merging/splitting documents, and handling forms. When Claude
+    needs to fill in a PDF form or programmatically process, generate, or analyze
+    PDF documents at scale.
+  when_to_use: Comprehensive PDF manipulation toolkit for extracting text and tables,
+    creating new PDFs, merging/splitting documents, and handling forms. When Claude
+    needs to fill in a PDF form or programmatically process, generate, or analyze
+    PDF documents at scale.
+- name: pdf-processing
+  path: skills/pdf-processing/SKILL.md
+  description: Extract text and tables from PDF files, fill forms, merge documents.
+    Use when working with PDF files or when the user mentions PDFs, forms, or document
+    extraction.
+  when_to_use: Extract text and tables from PDF files, fill forms, merge documents.
+    Use when working with PDF files or when the user mentions PDFs, forms, or document
+    extraction.
+- name: pdf-processing-pro
+  path: skills/pdf-processing-pro/SKILL.md
+  description: Production-ready PDF processing with forms, tables, OCR, validation,
+    and batch operations. Use when working with complex PDF workflows in production
+    environments, processing large volumes of PDFs, or requiring robust error handling
+    and validation.
+  when_to_use: Production-ready PDF processing with forms, tables, OCR, validation,
+    and batch operations. Use when working with complex PDF workflows in production
+    environments, processing large volumes of PDFs, or requiring robust error handling
+    and validation.
+- name: pptx
+  path: skills/pptx/SKILL.md
+  description: 'Presentation creation, editing, and analysis. When Claude needs to
+    work with presentations (.pptx files) for: (1) Creating new presentations, (2)
+    Modifying or editing content, (3) Working with layouts, (4) Adding comments or
+    speaker notes, or any other presentation tasks'
+  when_to_use: 'Presentation creation, editing, and analysis. When Claude needs to
+    work with presentations (.pptx files) for: (1) Creating new presentations, (2)
+    Modifying or editing content, (3) Working with layouts, (4) Adding comments or
+    speaker notes, or any other presentation tasks'
+- name: raffle-winner-picker
+  path: skills/raffle-winner-picker/SKILL.md
+  description: Picks random winners from lists, spreadsheets, or Google Sheets for
+    giveaways, raffles, and contests. Ensures fair, unbiased selection with transparency.
+  when_to_use: Picks random winners from lists, spreadsheets, or Google Sheets for
+    giveaways, raffles, and contests. Ensures fair, unbiased selection with transparency.
+- name: receiving-code-review
+  path: skills/receiving-code-review/SKILL.md
+  description: Use when receiving code review feedback, before implementing suggestions,
+    especially if feedback seems unclear or technically questionable - requires technical
+    rigor and verification, not performative agreement or blind implementation
+  when_to_use: Use when receiving code review feedback, before implementing suggestions,
+    especially if feedback seems unclear or technically questionable - requires technical
+    rigor and verification, not performative agreement or blind implementation
+- name: requesting-code-review
+  path: skills/requesting-code-review/SKILL.md
+  description: Use when completing tasks, implementing major features, or before merging
+    to verify work meets requirements - dispatches superpowers:code-reviewer subagent
+    to review implementation against plan or requirements before proceeding
+  when_to_use: Use when completing tasks, implementing major features, or before merging
+    to verify work meets requirements - dispatches superpowers:code-reviewer subagent
+    to review implementation against plan or requirements before proceeding
+- name: root-cause-tracing
+  path: skills/root-cause-tracing/SKILL.md
+  description: Use when errors occur deep in execution and you need to trace back
+    to find the original trigger - systematically traces bugs backward through call
+    stack, adding instrumentation when needed, to identify source of invalid data
+    or incorrect behavior
+  when_to_use: Use when errors occur deep in execution and you need to trace back
+    to find the original trigger - systematically traces bugs backward through call
+    stack, adding instrumentation when needed, to identify source of invalid data
+    or incorrect behavior
+- name: sharing-skills
+  path: skills/sharing-skills/SKILL.md
+  description: Use when you've developed a broadly useful skill and want to contribute
+    it upstream via pull request - guides process of branching, committing, pushing,
+    and creating PR to contribute skills back to upstream repository
+  when_to_use: Use when you've developed a broadly useful skill and want to contribute
+    it upstream via pull request - guides process of branching, committing, pushing,
+    and creating PR to contribute skills back to upstream repository
+- name: skill-creator
+  path: skills/skill-creator/SKILL.md
+  description: Guide for creating effective skills. This skill should be used when
+    users want to create a new skill (or update an existing skill) that extends Claude's
+    capabilities with specialized knowledge, workflows, or tool integrations.
+  when_to_use: Guide for creating effective skills. This skill should be used when
+    users want to create a new skill (or update an existing skill) that extends Claude's
+    capabilities with specialized knowledge, workflows, or tool integrations.
+- name: skill-share
+  path: skills/skill-share/SKILL.md
+  description: A skill that creates new Claude skills and automatically shares them
+    on Slack using Rube for seamless team collaboration and skill discovery.
+  when_to_use: A skill that creates new Claude skills and automatically shares them
+    on Slack using Rube for seamless team collaboration and skill discovery.
+- name: slack-gif-creator
+  path: skills/slack-gif-creator/SKILL.md
+  description: Toolkit for creating animated GIFs optimized for Slack, with validators
+    for size constraints and composable animation primitives. This skill applies when
+    users request animated GIFs or emoji animations for Slack from descriptions like
+    "make me a GIF for Slack of X doing Y".
+  when_to_use: Toolkit for creating animated GIFs optimized for Slack, with validators
+    for size constraints and composable animation primitives. This skill applies when
+    users request animated GIFs or emoji animations for Slack from descriptions like
+    "make me a GIF for Slack of X doing Y".
+- name: subagent-driven-development
+  path: skills/subagent-driven-development/SKILL.md
+  description: Use when executing implementation plans with independent tasks in the
+    current session - dispatches fresh subagent for each task with code review between
+    tasks, enabling fast iteration with quality gates
+  when_to_use: Use when executing implementation plans with independent tasks in the
+    current session - dispatches fresh subagent for each task with code review between
+    tasks, enabling fast iteration with quality gates
+- name: systematic-debugging
+  path: skills/systematic-debugging/SKILL.md
+  description: Use when encountering any bug, test failure, or unexpected behavior,
+    before proposing fixes - four-phase framework (root cause investigation, pattern
+    analysis, hypothesis testing, implementation) that ensures understanding before
+    attempting solutions
+  when_to_use: Use when encountering any bug, test failure, or unexpected behavior,
+    before proposing fixes - four-phase framework (root cause investigation, pattern
+    analysis, hypothesis testing, implementation) that ensures understanding before
+    attempting solutions
+- name: template-skill
+  path: skills/template-skill/SKILL.md
+  description: Replace with description of the skill and when Claude should use it.
+  when_to_use: Replace with description of the skill and when Claude should use it.
+- name: test-driven-development
+  path: skills/test-driven-development/SKILL.md
+  description: Use when implementing any feature or bugfix, before writing implementation
+    code - write the test first, watch it fail, write minimal code to pass; ensures
+    tests actually verify behavior by requiring failure first
+  when_to_use: Use when implementing any feature or bugfix, before writing implementation
+    code - write the test first, watch it fail, write minimal code to pass; ensures
+    tests actually verify behavior by requiring failure first
+- name: testing-anti-patterns
+  path: skills/testing-anti-patterns/SKILL.md
+  description: Use when writing or changing tests, adding mocks, or tempted to add
+    test-only methods to production code - prevents testing mock behavior, production
+    pollution with test-only methods, and mocking without understanding dependencies
+  when_to_use: Use when writing or changing tests, adding mocks, or tempted to add
+    test-only methods to production code - prevents testing mock behavior, production
+    pollution with test-only methods, and mocking without understanding dependencies
+- name: testing-skills-with-subagents
+  path: skills/testing-skills-with-subagents/SKILL.md
+  description: Use when creating or editing skills, before deployment, to verify they
+    work under pressure and resist rationalization - applies RED-GREEN-REFACTOR cycle
+    to process documentation by running baseline without skill, writing to address
+    failures, iterating to close loopholes
+  when_to_use: Use when creating or editing skills, before deployment, to verify they
+    work under pressure and resist rationalization - applies RED-GREEN-REFACTOR cycle
+    to process documentation by running baseline without skill, writing to address
+    failures, iterating to close loopholes
+- name: theme-factory
+  path: skills/theme-factory/SKILL.md
+  description: Toolkit for styling artifacts with a theme. These artifacts can be
+    slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes
+    with colors/fonts that you can apply to any artifact that has been creating, or
+    can generate a new theme on-the-fly.
+  when_to_use: Toolkit for styling artifacts with a theme. These artifacts can be
+    slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes
+    with colors/fonts that you can apply to any artifact that has been creating, or
+    can generate a new theme on-the-fly.
+- name: using-git-worktrees
+  path: skills/using-git-worktrees/SKILL.md
+  description: Use when starting feature work that needs isolation from current workspace
+    or before executing implementation plans - creates isolated git worktrees with
+    smart directory selection and safety verification
+  when_to_use: Use when starting feature work that needs isolation from current workspace
+    or before executing implementation plans - creates isolated git worktrees with
+    smart directory selection and safety verification
+- name: using-superpowers
+  path: skills/using-superpowers/SKILL.md
+  description: Use when starting any conversation - establishes mandatory workflows
+    for finding and using skills, including loading relevant skills before announcing
+    usage, following brainstorming before coding, and creating TodoWrite todos for
+    checklists
+  when_to_use: Use when starting any conversation - establishes mandatory workflows
+    for finding and using skills, including loading relevant skills before announcing
+    usage, following brainstorming before coding, and creating TodoWrite todos for
+    checklists
+- name: verification-before-completion
+  path: skills/verification-before-completion/SKILL.md
+  description: Use when about to claim work is complete, fixed, or passing, before
+    committing or creating PRs - requires running verification commands and confirming
+    output before making any success claims; evidence before assertions always
+  when_to_use: Use when about to claim work is complete, fixed, or passing, before
+    committing or creating PRs - requires running verification commands and confirming
+    output before making any success claims; evidence before assertions always
+- name: video-downloader
+  path: skills/video-downloader/SKILL.md
+  description: Downloads videos from YouTube and other platforms for offline viewing,
+    editing, or archival. Handles various formats and quality options.
+  when_to_use: Downloads videos from YouTube and other platforms for offline viewing,
+    editing, or archival. Handles various formats and quality options.
+- name: web-artifacts-builder
+  path: skills/web-artifacts-builder/SKILL.md
+  description: Suite of tools for creating elaborate, multi-component HTML artifacts
+    using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for
+    complex artifacts requiring state management, routing, or shadcn/ui components
+    - not for simple single-file HTML/JSX artifacts.
+  when_to_use: Suite of tools for creating elaborate, multi-component HTML artifacts
+    using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for
+    complex artifacts requiring state management, routing, or shadcn/ui components
+    - not for simple single-file HTML/JSX artifacts.
+- name: webapp-testing
+  path: skills/webapp-testing/SKILL.md
+  description: Toolkit for interacting with and testing local web applications using
+    Playwright. Supports verifying frontend functionality, debugging UI behavior,
+    capturing browser screenshots, and viewing browser logs.
+  when_to_use: Toolkit for interacting with and testing local web applications using
+    Playwright. Supports verifying frontend functionality, debugging UI behavior,
+    capturing browser screenshots, and viewing browser logs.
+- name: writing-plans
+  path: skills/writing-plans/SKILL.md
+  description: Use when design is complete and you need detailed implementation tasks
+    for engineers with zero codebase context - creates comprehensive implementation
+    plans with exact file paths, complete code examples, and verification steps assuming
+    engineer has minimal domain knowledge
+  when_to_use: Use when design is complete and you need detailed implementation tasks
+    for engineers with zero codebase context - creates comprehensive implementation
+    plans with exact file paths, complete code examples, and verification steps assuming
+    engineer has minimal domain knowledge
+- name: writing-skills
+  path: skills/writing-skills/SKILL.md
+  description: Use when creating new skills, editing existing skills, or verifying
+    skills work before deployment - applies TDD to process documentation by testing
+    with subagents before writing, iterating until bulletproof against rationalization
+  when_to_use: Use when creating new skills, editing existing skills, or verifying
+    skills work before deployment - applies TDD to process documentation by testing
+    with subagents before writing, iterating until bulletproof against rationalization
+- name: xlsx
+  path: skills/xlsx/SKILL.md
+  description: 'Comprehensive spreadsheet creation, editing, and analysis with support
+    for formulas, formatting, data analysis, and visualization. When Claude needs
+    to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new
+    spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3)
+    Modify existing spreadsheets while preserving formulas, (4) Data analysis and
+    visualization in spreadsheets, or (5) Recalculating formulas'
+  when_to_use: 'Comprehensive spreadsheet creation, editing, and analysis with support
+    for formulas, formatting, data analysis, and visualization. When Claude needs
+    to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new
+    spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3)
+    Modify existing spreadsheets while preserving formulas, (4) Data analysis and
+    visualization in spreadsheets, or (5) Recalculating formulas'
+- name: zapier-workflows
+  path: skills/zapier-workflows/SKILL.md
+  description: Manage and trigger pre-built Zapier workflows and MCP tool orchestration.
+    Use when user mentions workflows, Zaps, automations, daily digest, research, search,
+    lead tracking, expenses, or asks to "run" any process. Also handles Perplexity-based
+    research and Google Sheets data tracking.
+  when_to_use: Manage and trigger pre-built Zapier workflows and MCP tool orchestration.
+    Use when user mentions workflows, Zaps, automations, daily digest, research, search,
+    lead tracking, expenses, or asks to "run" any process. Also handles Perplexity-based
+    research and Google Sheets data tracking.
+patterns:
+- name: agility_story
+  path: patterns/agility_story/system.md
+  description: Generate a user story and acceptance criteria in JSON format based
+    on the given topic.
+  when_to_use: Generate a user story and acceptance criteria in JSON format based
+    on the given topic.
+- name: ai
+  path: patterns/ai/system.md
+  description: Interpret questions deeply and provide concise, insightful answers
+    in Markdown bullet points.
+  when_to_use: Interpret questions deeply and provide concise, insightful answers
+    in Markdown bullet points.
+- name: analyze_answers
+  path: patterns/analyze_answers/README.md
+  description: Evaluate quiz answers for correctness based on learning objectives
+    and generated quiz questions.
+  when_to_use: Evaluate quiz answers for correctness based on learning objectives
+    and generated quiz questions.
+- name: analyze_bill
+  path: patterns/analyze_bill/system.md
+  description: Analyzes legislation to identify overt and covert goals, examining
+    bills for hidden agendas and true intentions.
+  when_to_use: Analyzes legislation to identify overt and covert goals, examining
+    bills for hidden agendas and true intentions.
+- name: analyze_bill_short
+  path: patterns/analyze_bill_short/system.md
+  description: Provides a concise analysis of legislation, identifying overt and covert
+    goals in a brief, structured format.
+  when_to_use: Provides a concise analysis of legislation, identifying overt and covert
+    goals in a brief, structured format.
+- name: analyze_candidates
+  path: patterns/analyze_candidates/system.md
+  description: Compare and contrast two political candidates based on key issues and
+    policies.
+  when_to_use: Compare and contrast two political candidates based on key issues and
+    policies.
+- name: analyze_cfp_submission
+  path: patterns/analyze_cfp_submission/system.md
+  description: Review and evaluate conference speaking session submissions based on
+    clarity, relevance, depth, and engagement potential.
+  when_to_use: Review and evaluate conference speaking session submissions based on
+    clarity, relevance, depth, and engagement potential.
+- name: analyze_claims
+  path: patterns/analyze_claims/system.md
+  description: Analyse and rate truth claims with evidence, counter-arguments, fallacies,
+    and final recommendations.
+  when_to_use: Analyse and rate truth claims with evidence, counter-arguments, fallacies,
+    and final recommendations.
+- name: analyze_comments
+  path: patterns/analyze_comments/system.md
+  description: Evaluate internet comments for content, categorize sentiment, and identify
+    reasons for praise, criticism, and neutrality.
+  when_to_use: Evaluate internet comments for content, categorize sentiment, and identify
+    reasons for praise, criticism, and neutrality.
+- name: analyze_debate
+  path: patterns/analyze_debate/system.md
+  description: Rate debates on insight, emotionality, and present an unbiased, thorough
+    analysis of arguments, agreements, and disagreements.
+  when_to_use: Rate debates on insight, emotionality, and present an unbiased, thorough
+    analysis of arguments, agreements, and disagreements.
+- name: analyze_email_headers
+  path: patterns/analyze_email_headers/system.md
+  description: Provide cybersecurity analysis and actionable insights on SPF, DKIM,
+    DMARC, and ARC email header results.
+  when_to_use: Provide cybersecurity analysis and actionable insights on SPF, DKIM,
+    DMARC, and ARC email header results.
+- name: analyze_incident
+  path: patterns/analyze_incident/system.md
+  description: Efficiently extract and organize key details from cybersecurity breach
+    articles, focusing on attack type, vulnerable components, attacker and target
+    info, incident details, and remediation steps.
+  when_to_use: Efficiently extract and organize key details from cybersecurity breach
+    articles, focusing on attack type, vulnerable components, attacker and target
+    info, incident details, and remediation steps.
+- name: analyze_interviewer_techniques
+  path: patterns/analyze_interviewer_techniques/system.md
+  description: This exercise involves analyzing interviewer techniques, identifying
+    their unique qualities, and succinctly articulating what makes them stand out
+    in a clear, simple format.
+  when_to_use: This exercise involves analyzing interviewer techniques, identifying
+    their unique qualities, and succinctly articulating what makes them stand out
+    in a clear, simple format.
+- name: analyze_logs
+  path: patterns/analyze_logs/system.md
+  description: Analyse server log files to identify patterns, anomalies, and issues,
+    providing data-driven insights and recommendations for improving server reliability
+    and performance.
+  when_to_use: Analyse server log files to identify patterns, anomalies, and issues,
+    providing data-driven insights and recommendations for improving server reliability
+    and performance.
+- name: analyze_malware
+  path: patterns/analyze_malware/system.md
+  description: Analyse malware details, extract key indicators, techniques, and potential
+    detection strategies, and summarize findings concisely for a malware analyst's
+    use in identifying and responding to threats.
+  when_to_use: Analyse malware details, extract key indicators, techniques, and potential
+    detection strategies, and summarize findings concisely for a malware analyst's
+    use in identifying and responding to threats.
+- name: analyze_military_strategy
+  path: patterns/analyze_military_strategy/system.md
+  description: Analyse a historical battle, offering in-depth insights into strategic
+    decisions, strengths, weaknesses, tactical approaches, logistical factors, pivotal
+    moments, and consequences for a comprehensive military evaluation.
+  when_to_use: Analyse a historical battle, offering in-depth insights into strategic
+    decisions, strengths, weaknesses, tactical approaches, logistical factors, pivotal
+    moments, and consequences for a comprehensive military evaluation.
+- name: analyze_mistakes
+  path: patterns/analyze_mistakes/system.md
+  description: Analyse past mistakes in thinking patterns, map them to current beliefs,
+    and offer recommendations to improve accuracy in predictions.
+  when_to_use: Analyse past mistakes in thinking patterns, map them to current beliefs,
+    and offer recommendations to improve accuracy in predictions.
+- name: analyze_paper
+  path: patterns/analyze_paper/system.md
+  description: Analyses research papers by summarizing findings, evaluating rigor,
+    and assessing quality to provide insights for documentation and review.
+  when_to_use: Analyses research papers by summarizing findings, evaluating rigor,
+    and assessing quality to provide insights for documentation and review.
+- name: analyze_paper_simple
+  path: patterns/analyze_paper_simple/system.md
+  description: Analyzes academic papers with a focus on primary findings, research
+    quality, and study design evaluation.
+  when_to_use: Analyzes academic papers with a focus on primary findings, research
+    quality, and study design evaluation.
+- name: analyze_patent
+  path: patterns/analyze_patent/system.md
+  description: Analyse a patent's field, problem, solution, novelty, inventive step,
+    and advantages in detail while summarizing and extracting keywords.
+  when_to_use: Analyse a patent's field, problem, solution, novelty, inventive step,
+    and advantages in detail while summarizing and extracting keywords.
+- name: analyze_personality
+  path: patterns/analyze_personality/system.md
+  description: Performs a deep psychological analysis of a person in the input, focusing
+    on their behavior, language, and psychological traits.
+  when_to_use: Performs a deep psychological analysis of a person in the input, focusing
+    on their behavior, language, and psychological traits.
+- name: analyze_presentation
+  path: patterns/analyze_presentation/system.md
+  description: Reviews and critiques presentations by analyzing the content, speaker's
+    underlying goals, self-focus, and entertainment value.
+  when_to_use: Reviews and critiques presentations by analyzing the content, speaker's
+    underlying goals, self-focus, and entertainment value.
+- name: analyze_product_feedback
+  path: patterns/analyze_product_feedback/system.md
+  description: A prompt for analyzing and organizing user feedback by identifying
+    themes, consolidating similar comments, and prioritizing them based on usefulness.
+  when_to_use: A prompt for analyzing and organizing user feedback by identifying
+    themes, consolidating similar comments, and prioritizing them based on usefulness.
+- name: analyze_proposition
+  path: patterns/analyze_proposition/system.md
+  description: Analyzes a ballot proposition by identifying its purpose, impact, arguments
+    for and against, and relevant background information.
+  when_to_use: Analyzes a ballot proposition by identifying its purpose, impact, arguments
+    for and against, and relevant background information.
+- name: analyze_prose
+  path: patterns/analyze_prose/system.md
+  description: Evaluates writing for novelty, clarity, and prose, providing ratings,
+    improvement recommendations, and an overall score.
+  when_to_use: Evaluates writing for novelty, clarity, and prose, providing ratings,
+    improvement recommendations, and an overall score.
+- name: analyze_prose_json
+  path: patterns/analyze_prose_json/system.md
+  description: Evaluates writing for novelty, clarity, prose, and provides ratings,
+    explanations, improvement suggestions, and an overall score in a JSON format.
+  when_to_use: Evaluates writing for novelty, clarity, prose, and provides ratings,
+    explanations, improvement suggestions, and an overall score in a JSON format.
+- name: analyze_prose_pinker
+  path: patterns/analyze_prose_pinker/system.md
+  description: Evaluates prose based on Steven Pinker's The Sense of Style, analyzing
+    writing style, clarity, and bad writing elements.
+  when_to_use: Evaluates prose based on Steven Pinker's The Sense of Style, analyzing
+    writing style, clarity, and bad writing elements.
+- name: analyze_risk
+  path: patterns/analyze_risk/system.md
+  description: Conducts a risk assessment of a third-party vendor, assigning a risk
+    score and suggesting security controls based on analysis of provided documents
+    and vendor website.
+  when_to_use: Conducts a risk assessment of a third-party vendor, assigning a risk
+    score and suggesting security controls based on analysis of provided documents
+    and vendor website.
+- name: analyze_sales_call
+  path: patterns/analyze_sales_call/system.md
+  description: Rates sales call performance across multiple dimensions, providing
+    scores and actionable feedback based on transcript analysis.
+  when_to_use: Rates sales call performance across multiple dimensions, providing
+    scores and actionable feedback based on transcript analysis.
+- name: analyze_spiritual_text
+  path: patterns/analyze_spiritual_text/system.md
+  description: Compares and contrasts spiritual texts by analyzing claims and differences
+    with the King James Bible.
+  when_to_use: Compares and contrasts spiritual texts by analyzing claims and differences
+    with the King James Bible.
+- name: analyze_tech_impact
+  path: patterns/analyze_tech_impact/system.md
+  description: Analyzes the societal impact, ethical considerations, and sustainability
+    of technology projects, evaluating their outcomes and benefits.
+  when_to_use: Analyzes the societal impact, ethical considerations, and sustainability
+    of technology projects, evaluating their outcomes and benefits.
+- name: analyze_terraform_plan
+  path: patterns/analyze_terraform_plan/system.md
+  description: Analyzes Terraform plan outputs to assess infrastructure changes, security
+    risks, cost implications, and compliance considerations.
+  when_to_use: Analyzes Terraform plan outputs to assess infrastructure changes, security
+    risks, cost implications, and compliance considerations.
+- name: analyze_threat_report
+  path: patterns/analyze_threat_report/system.md
+  description: Extracts surprising insights, trends, statistics, quotes, references,
+    and recommendations from cybersecurity threat reports, summarizing key findings
+    and providing actionable information.
+  when_to_use: Extracts surprising insights, trends, statistics, quotes, references,
+    and recommendations from cybersecurity threat reports, summarizing key findings
+    and providing actionable information.
+- name: analyze_threat_report_cmds
+  path: patterns/analyze_threat_report_cmds/system.md
+  description: Extract and synthesize actionable cybersecurity commands from provided
+    materials, incorporating command-line arguments and expert insights for pentesters
+    and non-experts.
+  when_to_use: Extract and synthesize actionable cybersecurity commands from provided
+    materials, incorporating command-line arguments and expert insights for pentesters
+    and non-experts.
+- name: analyze_threat_report_trends
+  path: patterns/analyze_threat_report_trends/system.md
+  description: Extract up to 50 surprising, insightful, and interesting trends from
+    a cybersecurity threat report in markdown format.
+  when_to_use: Extract up to 50 surprising, insightful, and interesting trends from
+    a cybersecurity threat report in markdown format.
+- name: answer_interview_question
+  path: patterns/answer_interview_question/system.md
+  description: Generates concise, tailored responses to technical interview questions,
+    incorporating alternative approaches and evidence to demonstrate the candidate's
+    expertise and experience.
+  when_to_use: Generates concise, tailored responses to technical interview questions,
+    incorporating alternative approaches and evidence to demonstrate the candidate's
+    expertise and experience.
+- name: apply_ul_tags
+  path: patterns/apply_ul_tags/system.md
+  description: Apply standardized content tags to categorize topics like AI, cybersecurity,
+    politics, and culture.
+  when_to_use: Apply standardized content tags to categorize topics like AI, cybersecurity,
+    politics, and culture.
+- name: ask_secure_by_design_questions
+  path: patterns/ask_secure_by_design_questions/system.md
+  description: Generates a set of security-focused questions to ensure a project is
+    built securely by design, covering key components and considerations.
+  when_to_use: Generates a set of security-focused questions to ensure a project is
+    built securely by design, covering key components and considerations.
+- name: ask_uncle_duke
+  path: patterns/ask_uncle_duke/system.md
+  description: Coordinates a team of AI agents to research and produce multiple software
+    development solutions based on provided specifications, and conducts detailed
+    code reviews to ensure adherence to best practices.
+  when_to_use: Coordinates a team of AI agents to research and produce multiple software
+    development solutions based on provided specifications, and conducts detailed
+    code reviews to ensure adherence to best practices.
+- name: capture_thinkers_work
+  path: patterns/capture_thinkers_work/system.md
+  description: Analyze philosophers or philosophies and provide detailed summaries
+    about their teachings, background, works, advice, and related concepts in a structured
+    template.
+  when_to_use: Analyze philosophers or philosophies and provide detailed summaries
+    about their teachings, background, works, advice, and related concepts in a structured
+    template.
+- name: check_agreement
+  path: patterns/check_agreement/system.md
+  description: Analyze contracts and agreements to identify important stipulations,
+    issues, and potential gotchas, then summarize them in Markdown.
+  when_to_use: Analyze contracts and agreements to identify important stipulations,
+    issues, and potential gotchas, then summarize them in Markdown.
+- name: clean_text
+  path: patterns/clean_text/system.md
+  description: Fix broken or malformatted text by correcting line breaks, punctuation,
+    capitalization, and paragraphs without altering content or spelling.
+  when_to_use: Fix broken or malformatted text by correcting line breaks, punctuation,
+    capitalization, and paragraphs without altering content or spelling.
+- name: coding_master
+  path: patterns/coding_master/system.md
+  description: Explain a coding concept to a beginner, providing examples, and formatting
+    code in markdown with specific output sections like ideas, recommendations, facts,
+    and insights.
+  when_to_use: Explain a coding concept to a beginner, providing examples, and formatting
+    code in markdown with specific output sections like ideas, recommendations, facts,
+    and insights.
+- name: compare_and_contrast
+  path: patterns/compare_and_contrast/system.md
+  description: Compare and contrast a list of items in a markdown table, with items
+    on the left and topics on top.
+  when_to_use: Compare and contrast a list of items in a markdown table, with items
+    on the left and topics on top.
+- name: concall_summary
+  path: patterns/concall_summary/system.md
+  description: Analyzes earnings and conference call transcripts to extract management
+    commentary, analyst Q&A, financial insights, risks, and executive summaries.
+  when_to_use: Analyzes earnings and conference call transcripts to extract management
+    commentary, analyst Q&A, financial insights, risks, and executive summaries.
+- name: convert_to_markdown
+  path: patterns/convert_to_markdown/system.md
+  description: Convert content to clean, complete Markdown format, preserving all
+    original structure, formatting, links, and code blocks without alterations.
+  when_to_use: Convert content to clean, complete Markdown format, preserving all
+    original structure, formatting, links, and code blocks without alterations.
+- name: create_5_sentence_summary
+  path: patterns/create_5_sentence_summary/system.md
+  description: Create concise summaries or answers to input at 5 different levels
+    of depth, from 5 words to 1 word.
+  when_to_use: Create concise summaries or answers to input at 5 different levels
+    of depth, from 5 words to 1 word.
+- name: create_academic_paper
+  path: patterns/create_academic_paper/system.md
+  description: Generate a high-quality academic paper in LaTeX format with clear concepts,
+    structured content, and a professional layout.
+  when_to_use: Generate a high-quality academic paper in LaTeX format with clear concepts,
+    structured content, and a professional layout.
+- name: create_ai_jobs_analysis
+  path: patterns/create_ai_jobs_analysis/system.md
+  description: Analyze job categories' susceptibility to automation, identify resilient
+    roles, and provide strategies for personal adaptation to AI-driven changes in
+    the workforce.
+  when_to_use: Analyze job categories' susceptibility to automation, identify resilient
+    roles, and provide strategies for personal adaptation to AI-driven changes in
+    the workforce.
+- name: create_aphorisms
+  path: patterns/create_aphorisms/system.md
+  description: Find and generate a list of brief, witty statements.
+  when_to_use: Find and generate a list of brief, witty statements.
+- name: create_art_prompt
+  path: patterns/create_art_prompt/system.md
+  description: Generates a detailed, compelling visual description of a concept, including
+    stylistic references and direct AI instructions for creating art.
+  when_to_use: Generates a detailed, compelling visual description of a concept, including
+    stylistic references and direct AI instructions for creating art.
+- name: create_better_frame
+  path: patterns/create_better_frame/system.md
+  description: Identifies and analyzes different frames of interpreting reality, emphasizing
+    the power of positive, productive lenses in shaping outcomes.
+  when_to_use: Identifies and analyzes different frames of interpreting reality, emphasizing
+    the power of positive, productive lenses in shaping outcomes.
+- name: create_coding_feature
+  path: patterns/create_coding_feature/README.md
+  description: Generates secure and composable code features using modern technology
+    and best practices from project specifications.
+  when_to_use: Generates secure and composable code features using modern technology
+    and best practices from project specifications.
+- name: create_coding_project
+  path: patterns/create_coding_project/README.md
+  description: Generate wireframes and starter code for any coding ideas that you
+    have.
+  when_to_use: Generate wireframes and starter code for any coding ideas that you
+    have.
+- name: create_command
+  path: patterns/create_command/README.md
+  description: Helps determine the correct parameters and switches for penetration
+    testing tools based on a brief description of the objective.
+  when_to_use: Helps determine the correct parameters and switches for penetration
+    testing tools based on a brief description of the objective.
+- name: create_conceptmap
+  path: patterns/create_conceptmap/system.md
+  description: Transforms unstructured text or markdown content into an interactive
+    HTML concept map using Vis.js by extracting key concepts and their logical relationships.
+  when_to_use: Transforms unstructured text or markdown content into an interactive
+    HTML concept map using Vis.js by extracting key concepts and their logical relationships.
+- name: create_cyber_summary
+  path: patterns/create_cyber_summary/system.md
+  description: Summarizes cybersecurity threats, vulnerabilities, incidents, and malware
+    with a 25-word summary and categorized bullet points, after thoroughly analyzing
+    and mapping the provided input.
+  when_to_use: Summarizes cybersecurity threats, vulnerabilities, incidents, and malware
+    with a 25-word summary and categorized bullet points, after thoroughly analyzing
+    and mapping the provided input.
+- name: create_design_document
+  path: patterns/create_design_document/system.md
+  description: Creates a detailed design document for a system using the C4 model,
+    addressing business and security postures, and including a system context diagram.
+  when_to_use: Creates a detailed design document for a system using the C4 model,
+    addressing business and security postures, and including a system context diagram.
+- name: create_diy
+  path: patterns/create_diy/system.md
+  description: Creates structured "Do It Yourself" tutorial patterns by analyzing
+    prompts, organizing requirements, and providing step-by-step instructions in Markdown
+    format.
+  when_to_use: Creates structured "Do It Yourself" tutorial patterns by analyzing
+    prompts, organizing requirements, and providing step-by-step instructions in Markdown
+    format.
+- name: create_excalidraw_visualization
+  path: patterns/create_excalidraw_visualization/system.md
+  description: Creates complex Excalidraw diagrams to visualize relationships between
+    concepts and ideas in structured format.
+  when_to_use: Creates complex Excalidraw diagrams to visualize relationships between
+    concepts and ideas in structured format.
+- name: create_flash_cards
+  path: patterns/create_flash_cards/system.md
+  description: Creates flashcards for key concepts, definitions, and terms with question-answer
+    format for educational purposes.
+  when_to_use: Creates flashcards for key concepts, definitions, and terms with question-answer
+    format for educational purposes.
+- name: create_formal_email
+  path: patterns/create_formal_email/system.md
+  description: Crafts professional, clear, and respectful emails by analyzing context,
+    tone, and purpose, ensuring proper structure and formatting.
+  when_to_use: Crafts professional, clear, and respectful emails by analyzing context,
+    tone, and purpose, ensuring proper structure and formatting.
+- name: create_git_diff_commit
+  path: patterns/create_git_diff_commit/README.md
+  description: Generates Git commands and commit messages for reflecting changes in
+    a repository, using conventional commits and providing concise shell commands
+    for updates.
+  when_to_use: Generates Git commands and commit messages for reflecting changes in
+    a repository, using conventional commits and providing concise shell commands
+    for updates.
+- name: create_graph_from_input
+  path: patterns/create_graph_from_input/system.md
+  description: Generates a CSV file with progress-over-time data for a security program,
+    focusing on relevant metrics and KPIs.
+  when_to_use: Generates a CSV file with progress-over-time data for a security program,
+    focusing on relevant metrics and KPIs.
+- name: create_hormozi_offer
+  path: patterns/create_hormozi_offer/system.md
+  description: Creates a customized business offer based on principles from Alex Hormozi's
+    book, "$100M Offers."
+  when_to_use: Creates a customized business offer based on principles from Alex Hormozi's
+    book, "$100M Offers."
+- name: create_idea_compass
+  path: patterns/create_idea_compass/system.md
+  description: Organizes and structures ideas by exploring their definition, evidence,
+    sources, and related themes or consequences.
+  when_to_use: Organizes and structures ideas by exploring their definition, evidence,
+    sources, and related themes or consequences.
+- name: create_investigation_visualization
+  path: patterns/create_investigation_visualization/system.md
+  description: Creates detailed Graphviz visualizations of complex input, highlighting
+    key aspects and providing clear, well-annotated diagrams for investigative analysis
+    and conclusions.
+  when_to_use: Creates detailed Graphviz visualizations of complex input, highlighting
+    key aspects and providing clear, well-annotated diagrams for investigative analysis
+    and conclusions.
+- name: create_keynote
+  path: patterns/create_keynote/system.md
+  description: Creates TED-style keynote presentations with a clear narrative, structured
+    slides, and speaker notes, emphasizing impactful takeaways and cohesive flow.
+  when_to_use: Creates TED-style keynote presentations with a clear narrative, structured
+    slides, and speaker notes, emphasizing impactful takeaways and cohesive flow.
+- name: create_loe_document
+  path: patterns/create_loe_document/system.md
+  description: Creates detailed Level of Effort documents for estimating work effort,
+    resources, and costs for tasks or projects.
+  when_to_use: Creates detailed Level of Effort documents for estimating work effort,
+    resources, and costs for tasks or projects.
+- name: create_logo
+  path: patterns/create_logo/system.md
+  description: Creates simple, minimalist company logos without text, generating AI
+    prompts for vector graphic logos based on input.
+  when_to_use: Creates simple, minimalist company logos without text, generating AI
+    prompts for vector graphic logos based on input.
+- name: create_markmap_visualization
+  path: patterns/create_markmap_visualization/system.md
+  description: Transforms complex ideas into clear visualizations using MarkMap syntax,
+    simplifying concepts into diagrams with relationships, boxes, arrows, and labels.
+  when_to_use: Transforms complex ideas into clear visualizations using MarkMap syntax,
+    simplifying concepts into diagrams with relationships, boxes, arrows, and labels.
+- name: create_mermaid_visualization
+  path: patterns/create_mermaid_visualization/system.md
+  description: Creates detailed, standalone visualizations of concepts using Mermaid
+    (Markdown) syntax, ensuring clarity and coherence in diagrams.
+  when_to_use: Creates detailed, standalone visualizations of concepts using Mermaid
+    (Markdown) syntax, ensuring clarity and coherence in diagrams.
+- name: create_mermaid_visualization_for_github
+  path: patterns/create_mermaid_visualization_for_github/system.md
+  description: Creates standalone, detailed visualizations using Mermaid (Markdown)
+    syntax to effectively explain complex concepts, ensuring clarity and precision.
+  when_to_use: Creates standalone, detailed visualizations using Mermaid (Markdown)
+    syntax to effectively explain complex concepts, ensuring clarity and precision.
+- name: create_micro_summary
+  path: patterns/create_micro_summary/system.md
+  description: Summarizes content into a concise, 20-word summary with main points
+    and takeaways, formatted in Markdown.
+  when_to_use: Summarizes content into a concise, 20-word summary with main points
+    and takeaways, formatted in Markdown.
+- name: create_mnemonic_phrases
+  path: patterns/create_mnemonic_phrases/README.md
+  description: Creates memorable mnemonic sentences from given words to aid in memory
+    retention and learning.
+  when_to_use: Creates memorable mnemonic sentences from given words to aid in memory
+    retention and learning.
+- name: create_network_threat_landscape
+  path: patterns/create_network_threat_landscape/system.md
+  description: Analyzes open ports and services from a network scan and generates
+    a comprehensive, insightful, and detailed security threat report in Markdown.
+  when_to_use: Analyzes open ports and services from a network scan and generates
+    a comprehensive, insightful, and detailed security threat report in Markdown.
+- name: create_newsletter_entry
+  path: patterns/create_newsletter_entry/system.md
+  description: Condenses provided article text into a concise, objective, newsletter-style
+    summary with a title in the style of Frontend Weekly.
+  when_to_use: Condenses provided article text into a concise, objective, newsletter-style
+    summary with a title in the style of Frontend Weekly.
+- name: create_npc
+  path: patterns/create_npc/system.md
+  description: Generates a detailed D&D 5E NPC, including background, flaws, stats,
+    appearance, personality, goals, and more in Markdown format.
+  when_to_use: Generates a detailed D&D 5E NPC, including background, flaws, stats,
+    appearance, personality, goals, and more in Markdown format.
+- name: create_pattern
+  path: patterns/create_pattern/system.md
+  description: Extracts, organizes, and formats LLM/AI prompts into structured sections,
+    detailing the AI's role, instructions, output format, and any provided examples
+    for clarity and accuracy.
+  when_to_use: Extracts, organizes, and formats LLM/AI prompts into structured sections,
+    detailing the AI's role, instructions, output format, and any provided examples
+    for clarity and accuracy.
+- name: create_prd
+  path: patterns/create_prd/system.md
+  description: Creates a precise Product Requirements Document (PRD) in Markdown based
+    on input.
+  when_to_use: Creates a precise Product Requirements Document (PRD) in Markdown based
+    on input.
+- name: create_prediction_block
+  path: patterns/create_prediction_block/system.md
+  description: Extracts and formats predictions from input into a structured Markdown
+    block for a blog post.
+  when_to_use: Extracts and formats predictions from input into a structured Markdown
+    block for a blog post.
+- name: create_quiz
+  path: patterns/create_quiz/README.md
+  description: Creates a three-phase reading plan based on an author or topic to help
+    the user become significantly knowledgeable, including core, extended, and supplementary
+    readings.
+  when_to_use: Creates a three-phase reading plan based on an author or topic to help
+    the user become significantly knowledgeable, including core, extended, and supplementary
+    readings.
+- name: create_reading_plan
+  path: patterns/create_reading_plan/system.md
+  description: Generates review questions based on learning objectives from the input,
+    adapted to the specified student level, and outputs them in a clear markdown format.
+  when_to_use: Generates review questions based on learning objectives from the input,
+    adapted to the specified student level, and outputs them in a clear markdown format.
+- name: create_recursive_outline
+  path: patterns/create_recursive_outline/system.md
+  description: Breaks down complex tasks or projects into manageable, hierarchical
+    components with recursive outlining for clarity and simplicity.
+  when_to_use: Breaks down complex tasks or projects into manageable, hierarchical
+    components with recursive outlining for clarity and simplicity.
+- name: create_report_finding
+  path: patterns/create_report_finding/system.md
+  description: Creates a detailed, structured security finding report in markdown,
+    including sections on Description, Risk, Recommendations, References, One-Sentence-Summary,
+    and Quotes.
+  when_to_use: Creates a detailed, structured security finding report in markdown,
+    including sections on Description, Risk, Recommendations, References, One-Sentence-Summary,
+    and Quotes.
+- name: create_rpg_summary
+  path: patterns/create_rpg_summary/system.md
+  description: Summarizes an in-person RPG session with key events, combat details,
+    player stats, and role-playing highlights in a structured format.
+  when_to_use: Summarizes an in-person RPG session with key events, combat details,
+    player stats, and role-playing highlights in a structured format.
+- name: create_security_update
+  path: patterns/create_security_update/system.md
+  description: Creates concise security updates for newsletters, covering stories,
+    threats, advisories, vulnerabilities, and a summary of key issues.
+  when_to_use: Creates concise security updates for newsletters, covering stories,
+    threats, advisories, vulnerabilities, and a summary of key issues.
+- name: create_show_intro
+  path: patterns/create_show_intro/system.md
+  description: Creates compelling short intros for podcasts, summarizing key topics
+    and themes discussed in the episode.
+  when_to_use: Creates compelling short intros for podcasts, summarizing key topics
+    and themes discussed in the episode.
+- name: create_sigma_rules
+  path: patterns/create_sigma_rules/system.md
+  description: Extracts Tactics, Techniques, and Procedures (TTPs) from security news
+    and converts them into Sigma detection rules for host-based detections.
+  when_to_use: Extracts Tactics, Techniques, and Procedures (TTPs) from security news
+    and converts them into Sigma detection rules for host-based detections.
+- name: create_story_about_people_interaction
+  path: patterns/create_story_about_people_interaction/system.md
+  description: Analyze two personas, compare their dynamics, and craft a realistic,
+    character-driven story from those insights.
+  when_to_use: Analyze two personas, compare their dynamics, and craft a realistic,
+    character-driven story from those insights.
+- name: create_story_about_person
+  path: patterns/create_story_about_person/system.md
+  description: Creates compelling, realistic short stories based on psychological
+    profiles, showing how characters navigate everyday problems using strategies consistent
+    with their personality traits.
+  when_to_use: Creates compelling, realistic short stories based on psychological
+    profiles, showing how characters navigate everyday problems using strategies consistent
+    with their personality traits.
+- name: create_story_explanation
+  path: patterns/create_story_explanation/system.md
+  description: Summarizes complex content in a clear, approachable story format that
+    makes the concepts easy to understand.
+  when_to_use: Summarizes complex content in a clear, approachable story format that
+    makes the concepts easy to understand.
+- name: create_stride_threat_model
+  path: patterns/create_stride_threat_model/system.md
+  description: Create a STRIDE-based threat model for a system design, identifying
+    assets, trust boundaries, data flows, and prioritizing threats with mitigations.
+  when_to_use: Create a STRIDE-based threat model for a system design, identifying
+    assets, trust boundaries, data flows, and prioritizing threats with mitigations.
+- name: create_summary
+  path: patterns/create_summary/system.md
+  description: Summarizes content into a 20-word sentence, 10 main points (16 words
+    max), and 5 key takeaways in Markdown format.
+  when_to_use: Summarizes content into a 20-word sentence, 10 main points (16 words
+    max), and 5 key takeaways in Markdown format.
+- name: create_tags
+  path: patterns/create_tags/system.md
+  description: Identifies at least 5 tags from text content for mind mapping tools,
+    including authors and existing tags if present.
+  when_to_use: Identifies at least 5 tags from text content for mind mapping tools,
+    including authors and existing tags if present.
+- name: create_threat_scenarios
+  path: patterns/create_threat_scenarios/system.md
+  description: Identifies likely attack methods for any system by providing a narrative-based
+    threat model, balancing risk and opportunity.
+  when_to_use: Identifies likely attack methods for any system by providing a narrative-based
+    threat model, balancing risk and opportunity.
+- name: create_ttrc_graph
+  path: patterns/create_ttrc_graph/system.md
+  description: Creates a CSV file showing the progress of Time to Remediate Critical
+    Vulnerabilities over time using given data.
+  when_to_use: Creates a CSV file showing the progress of Time to Remediate Critical
+    Vulnerabilities over time using given data.
+- name: create_ttrc_narrative
+  path: patterns/create_ttrc_narrative/system.md
+  description: Creates a persuasive narrative highlighting progress in reducing the
+    Time to Remediate Critical Vulnerabilities metric over time.
+  when_to_use: Creates a persuasive narrative highlighting progress in reducing the
+    Time to Remediate Critical Vulnerabilities metric over time.
+- name: create_upgrade_pack
+  path: patterns/create_upgrade_pack/system.md
+  description: Extracts world model and task algorithm updates from content, providing
+    beliefs about how the world works and task performance.
+  when_to_use: Extracts world model and task algorithm updates from content, providing
+    beliefs about how the world works and task performance.
+- name: create_user_story
+  path: patterns/create_user_story/system.md
+  description: Writes concise and clear technical user stories for new features in
+    complex software programs, formatted for all stakeholders.
+  when_to_use: Writes concise and clear technical user stories for new features in
+    complex software programs, formatted for all stakeholders.
+- name: create_video_chapters
+  path: patterns/create_video_chapters/system.md
+  description: Extracts interesting topics and timestamps from a transcript, providing
+    concise summaries of key moments.
+  when_to_use: Extracts interesting topics and timestamps from a transcript, providing
+    concise summaries of key moments.
+- name: create_visualization
+  path: patterns/create_visualization/system.md
+  description: Transforms complex ideas into visualizations using intricate ASCII
+    art, simplifying concepts where necessary.
+  when_to_use: Transforms complex ideas into visualizations using intricate ASCII
+    art, simplifying concepts where necessary.
+- name: dialog_with_socrates
+  path: patterns/dialog_with_socrates/system.md
+  description: Engages in deep, meaningful dialogues to explore and challenge beliefs
+    using the Socratic method.
+  when_to_use: Engages in deep, meaningful dialogues to explore and challenge beliefs
+    using the Socratic method.
+- name: enrich_blog_post
+  path: patterns/enrich_blog_post/system.md
+  description: Enhances Markdown blog files by applying instructions to improve structure,
+    visuals, and readability for HTML rendering.
+  when_to_use: Enhances Markdown blog files by applying instructions to improve structure,
+    visuals, and readability for HTML rendering.
+- name: explain_code
+  path: patterns/explain_code/system.md
+  description: Explains code, security tool output, configuration text, and answers
+    questions based on the provided input.
+  when_to_use: Explains code, security tool output, configuration text, and answers
+    questions based on the provided input.
+- name: explain_docs
+  path: patterns/explain_docs/system.md
+  description: Improves and restructures tool documentation into clear, concise instructions,
+    including overviews, usage, use cases, and key features.
+  when_to_use: Improves and restructures tool documentation into clear, concise instructions,
+    including overviews, usage, use cases, and key features.
+- name: explain_math
+  path: patterns/explain_math/README.md
+  description: Helps you understand mathematical concepts in a clear and engaging
+    way.
+  when_to_use: Helps you understand mathematical concepts in a clear and engaging
+    way.
+- name: explain_project
+  path: patterns/explain_project/system.md
+  description: Summarizes project documentation into clear, concise sections covering
+    the project, problem, solution, installation, usage, and examples.
+  when_to_use: Summarizes project documentation into clear, concise sections covering
+    the project, problem, solution, installation, usage, and examples.
+- name: explain_terms
+  path: patterns/explain_terms/system.md
+  description: Produces a glossary of advanced terms from content, providing a definition,
+    analogy, and explanation of why each term matters.
+  when_to_use: Produces a glossary of advanced terms from content, providing a definition,
+    analogy, and explanation of why each term matters.
+- name: export_data_as_csv
+  path: patterns/export_data_as_csv/system.md
+  description: Extracts and outputs all data structures from the input in properly
+    formatted CSV data.
+  when_to_use: Extracts and outputs all data structures from the input in properly
+    formatted CSV data.
+- name: extract_algorithm_update_recommendations
+  path: patterns/extract_algorithm_update_recommendations/system.md
+  description: Extracts concise, practical algorithm update recommendations from the
+    input and outputs them in a bulleted list.
+  when_to_use: Extracts concise, practical algorithm update recommendations from the
+    input and outputs them in a bulleted list.
+- name: extract_alpha
+  path: patterns/extract_alpha/system.md
+  description: Extracts the top "alpha" insights from content and lists the 24 most
+    novel ideas as concise eight-word bullets.
+  when_to_use: Extracts the top "alpha" insights from content and lists the 24 most
+    novel ideas as concise eight-word bullets.
+- name: extract_article_wisdom
+  path: patterns/extract_article_wisdom/README.md
+  description: Extracts surprising, insightful, and interesting information from content,
+    categorizing it into sections like summary, ideas, quotes, facts, references,
+    and recommendations.
+  when_to_use: Extracts surprising, insightful, and interesting information from content,
+    categorizing it into sections like summary, ideas, quotes, facts, references,
+    and recommendations.
+- name: extract_book_ideas
+  path: patterns/extract_book_ideas/system.md
+  description: Extracts and outputs 50 to 100 of the most surprising, insightful,
+    and interesting ideas from a book's content.
+  when_to_use: Extracts and outputs 50 to 100 of the most surprising, insightful,
+    and interesting ideas from a book's content.
+- name: extract_book_recommendations
+  path: patterns/extract_book_recommendations/system.md
+  description: Extracts and outputs 50 to 100 practical, actionable recommendations
+    from a book's content.
+  when_to_use: Extracts and outputs 50 to 100 practical, actionable recommendations
+    from a book's content.
+- name: extract_business_ideas
+  path: patterns/extract_business_ideas/system.md
+  description: Extracts top business ideas from content and elaborates on the best
+    10 with unique differentiators.
+  when_to_use: Extracts top business ideas from content and elaborates on the best
+    10 with unique differentiators.
+- name: extract_characters
+  path: patterns/extract_characters/system.md
+  description: Identify all characters (human and non-human), resolve their aliases
+    and pronouns into canonical names, and produce detailed descriptions of each character's
+    role, motivations, and interactions ranked by narrative importance.
+  when_to_use: Identify all characters (human and non-human), resolve their aliases
+    and pronouns into canonical names, and produce detailed descriptions of each character's
+    role, motivations, and interactions ranked by narrative importance.
+- name: extract_controversial_ideas
+  path: patterns/extract_controversial_ideas/system.md
+  description: Extracts and outputs controversial statements and supporting quotes
+    from the input in a structured Markdown list.
+  when_to_use: Extracts and outputs controversial statements and supporting quotes
+    from the input in a structured Markdown list.
+- name: extract_core_message
+  path: patterns/extract_core_message/system.md
+  description: Extracts and outputs a clear, concise sentence that articulates the
+    core message of a given text or body of work.
+  when_to_use: Extracts and outputs a clear, concise sentence that articulates the
+    core message of a given text or body of work.
+- name: extract_ctf_writeup
+  path: patterns/extract_ctf_writeup/README.md
+  description: Extracts a short writeup from a warstory-like text about a cyber security
+    engagement.
+  when_to_use: Extracts a short writeup from a warstory-like text about a cyber security
+    engagement.
+- name: extract_domains
+  path: patterns/extract_domains/system.md
+  description: Extracts domains and URLs from content to identify sources used for
+    articles, newsletters, and other publications.
+  when_to_use: Extracts domains and URLs from content to identify sources used for
+    articles, newsletters, and other publications.
+- name: extract_extraordinary_claims
+  path: patterns/extract_extraordinary_claims/system.md
+  description: Extracts and outputs a list of extraordinary claims from conversations,
+    focusing on scientifically disputed or false statements.
+  when_to_use: Extracts and outputs a list of extraordinary claims from conversations,
+    focusing on scientifically disputed or false statements.
+- name: extract_ideas
+  path: patterns/extract_ideas/system.md
+  description: Extracts and outputs all the key ideas from input, presented as 15-word
+    bullet points in Markdown.
+  when_to_use: Extracts and outputs all the key ideas from input, presented as 15-word
+    bullet points in Markdown.
+- name: extract_insights
+  path: patterns/extract_insights/system.md
+  description: Extracts and outputs the most powerful and insightful ideas from text,
+    formatted as 16-word bullet points in the INSIGHTS section, also IDEAS section.
+  when_to_use: Extracts and outputs the most powerful and insightful ideas from text,
+    formatted as 16-word bullet points in the INSIGHTS section, also IDEAS section.
+- name: extract_insights_dm
+  path: patterns/extract_insights_dm/system.md
+  description: Extracts and outputs all valuable insights and a concise summary of
+    the content, including key points and topics discussed.
+  when_to_use: Extracts and outputs all valuable insights and a concise summary of
+    the content, including key points and topics discussed.
+- name: extract_instructions
+  path: patterns/extract_instructions/system.md
+  description: Extracts clear, actionable step-by-step instructions and main objectives
+    from instructional video transcripts, organizing them into a concise list.
+  when_to_use: Extracts clear, actionable step-by-step instructions and main objectives
+    from instructional video transcripts, organizing them into a concise list.
+- name: extract_jokes
+  path: patterns/extract_jokes/system.md
+  description: Extracts jokes from text content, presenting each joke with its punchline
+    in separate bullet points.
+  when_to_use: Extracts jokes from text content, presenting each joke with its punchline
+    in separate bullet points.
+- name: extract_latest_video
+  path: patterns/extract_latest_video/system.md
+  description: Extracts the latest video URL from a YouTube RSS feed and outputs the
+    URL only.
+  when_to_use: Extracts the latest video URL from a YouTube RSS feed and outputs the
+    URL only.
+- name: extract_main_activities
+  path: patterns/extract_main_activities/system.md
+  description: Extracts key events and activities from transcripts or logs, providing
+    a summary of what happened.
+  when_to_use: Extracts key events and activities from transcripts or logs, providing
+    a summary of what happened.
+- name: extract_main_idea
+  path: patterns/extract_main_idea/system.md
+  description: Extracts the main idea and key recommendation from the input, summarizing
+    them in 15-word sentences.
+  when_to_use: Extracts the main idea and key recommendation from the input, summarizing
+    them in 15-word sentences.
+- name: extract_mcp_servers
+  path: patterns/extract_mcp_servers/system.md
+  description: Identify and summarize Model Context Protocol (MCP) servers referenced
+    in the input along with their key details.
+  when_to_use: Identify and summarize Model Context Protocol (MCP) servers referenced
+    in the input along with their key details.
+- name: extract_most_redeeming_thing
+  path: patterns/extract_most_redeeming_thing/system.md
+  description: Extracts the most redeeming aspect from an input, summarizing it in
+    a single 15-word sentence.
+  when_to_use: Extracts the most redeeming aspect from an input, summarizing it in
+    a single 15-word sentence.
+- name: extract_patterns
+  path: patterns/extract_patterns/system.md
+  description: Extracts and analyzes recurring, surprising, and insightful patterns
+    from input, providing detailed analysis and advice for builders.
+  when_to_use: Extracts and analyzes recurring, surprising, and insightful patterns
+    from input, providing detailed analysis and advice for builders.
+- name: extract_poc
+  path: patterns/extract_poc/system.md
+  description: Extracts proof of concept URLs and validation methods from security
+    reports, providing the URL and command to run.
+  when_to_use: Extracts proof of concept URLs and validation methods from security
+    reports, providing the URL and command to run.
+- name: extract_predictions
+  path: patterns/extract_predictions/system.md
+  description: Extracts predictions from input, including specific details such as
+    date, confidence level, and verification method.
+  when_to_use: Extracts predictions from input, including specific details such as
+    date, confidence level, and verification method.
+- name: extract_primary_problem
+  path: patterns/extract_primary_problem/system.md
+  description: Extracts the primary problem with the world as presented in a given
+    text or body of work.
+  when_to_use: Extracts the primary problem with the world as presented in a given
+    text or body of work.
+- name: extract_primary_solution
+  path: patterns/extract_primary_solution/system.md
+  description: Extracts the primary solution for the world as presented in a given
+    text or body of work.
+  when_to_use: Extracts the primary solution for the world as presented in a given
+    text or body of work.
+- name: extract_product_features
+  path: patterns/extract_product_features/README.md
+  description: Extracts and outputs a list of product features from the provided input
+    in a bulleted format.
+  when_to_use: Extracts and outputs a list of product features from the provided input
+    in a bulleted format.
+- name: extract_questions
+  path: patterns/extract_questions/system.md
+  description: Extracts and outputs all questions asked by the interviewer in a conversation
+    or interview.
+  when_to_use: Extracts and outputs all questions asked by the interviewer in a conversation
+    or interview.
+- name: extract_recipe
+  path: patterns/extract_recipe/README.md
+  description: Extracts and outputs a recipe with a short meal description, ingredients
+    with measurements, and preparation steps.
+  when_to_use: Extracts and outputs a recipe with a short meal description, ingredients
+    with measurements, and preparation steps.
+- name: extract_recommendations
+  path: patterns/extract_recommendations/system.md
+  description: Extracts and outputs concise, practical recommendations from a given
+    piece of content in a bulleted list.
+  when_to_use: Extracts and outputs concise, practical recommendations from a given
+    piece of content in a bulleted list.
+- name: extract_references
+  path: patterns/extract_references/system.md
+  description: Extracts and outputs a bulleted list of references to art, stories,
+    books, literature, and other sources from content.
+  when_to_use: Extracts and outputs a bulleted list of references to art, stories,
+    books, literature, and other sources from content.
+- name: extract_skills
+  path: patterns/extract_skills/system.md
+  description: Extracts and classifies skills from a job description into a table,
+    separating each skill and classifying it as either hard or soft.
+  when_to_use: Extracts and classifies skills from a job description into a table,
+    separating each skill and classifying it as either hard or soft.
+- name: extract_song_meaning
+  path: patterns/extract_song_meaning/system.md
+  description: Analyzes a song to provide a summary of its meaning, supported by detailed
+    evidence from lyrics, artist commentary, and fan analysis.
+  when_to_use: Analyzes a song to provide a summary of its meaning, supported by detailed
+    evidence from lyrics, artist commentary, and fan analysis.
+- name: extract_sponsors
+  path: patterns/extract_sponsors/system.md
+  description: Extracts and lists official sponsors and potential sponsors from a
+    provided transcript.
+  when_to_use: Extracts and lists official sponsors and potential sponsors from a
+    provided transcript.
+- name: extract_videoid
+  path: patterns/extract_videoid/system.md
+  description: Extracts and outputs the video ID from any given URL.
+  when_to_use: Extracts and outputs the video ID from any given URL.
+- name: extract_wisdom
+  path: patterns/extract_wisdom/README.md
+  description: Extracts surprising, insightful, and interesting information from text
+    on topics like human flourishing, AI, learning, and more.
+  when_to_use: Extracts surprising, insightful, and interesting information from text
+    on topics like human flourishing, AI, learning, and more.
+- name: extract_wisdom_agents
+  path: patterns/extract_wisdom_agents/system.md
+  description: Extracts valuable insights, ideas, quotes, and references from content,
+    emphasizing topics like human flourishing, AI, learning, and technology.
+  when_to_use: Extracts valuable insights, ideas, quotes, and references from content,
+    emphasizing topics like human flourishing, AI, learning, and technology.
+- name: extract_wisdom_dm
+  path: patterns/extract_wisdom_dm/system.md
+  description: Extracts all valuable, insightful, and thought-provoking information
+    from content, focusing on topics like human flourishing, AI, learning, and technology.
+  when_to_use: Extracts all valuable, insightful, and thought-provoking information
+    from content, focusing on topics like human flourishing, AI, learning, and technology.
+- name: extract_wisdom_nometa
+  path: patterns/extract_wisdom_nometa/system.md
+  description: Extracts insights, ideas, quotes, habits, facts, references, and recommendations
+    from content, focusing on human flourishing, AI, technology, and related topics.
+  when_to_use: Extracts insights, ideas, quotes, habits, facts, references, and recommendations
+    from content, focusing on human flourishing, AI, technology, and related topics.
+- name: find_female_life_partner
+  path: patterns/find_female_life_partner/system.md
+  description: Analyzes criteria for finding a female life partner and provides clear,
+    direct, and poetic descriptions.
+  when_to_use: Analyzes criteria for finding a female life partner and provides clear,
+    direct, and poetic descriptions.
+- name: find_hidden_message
+  path: patterns/find_hidden_message/system.md
+  description: Extracts overt and hidden political messages, justifications, audience
+    actions, and a cynical analysis from content.
+  when_to_use: Extracts overt and hidden political messages, justifications, audience
+    actions, and a cynical analysis from content.
+- name: find_logical_fallacies
+  path: patterns/find_logical_fallacies/system.md
+  description: Identifies and analyzes fallacies in arguments, classifying them as
+    formal or informal with detailed reasoning.
+  when_to_use: Identifies and analyzes fallacies in arguments, classifying them as
+    formal or informal with detailed reasoning.
+- name: fix_typos
+  path: patterns/fix_typos/system.md
+  description: Proofreads and corrects typos, spelling, grammar, and punctuation errors
+    in text.
+  when_to_use: Proofreads and corrects typos, spelling, grammar, and punctuation errors
+    in text.
+- name: generate_code_rules
+  path: patterns/generate_code_rules/system.md
+  description: Compile best-practice coding rules and guardrails for AI-assisted development
+    workflows from the provided content.
+  when_to_use: Compile best-practice coding rules and guardrails for AI-assisted development
+    workflows from the provided content.
+- name: get_wow_per_minute
+  path: patterns/get_wow_per_minute/system.md
+  description: Determines the wow-factor of content per minute based on surprise,
+    novelty, insight, value, and wisdom, measuring how rewarding the content is for
+    the viewer.
+  when_to_use: Determines the wow-factor of content per minute based on surprise,
+    novelty, insight, value, and wisdom, measuring how rewarding the content is for
+    the viewer.
+- name: heal_person
+  path: patterns/heal_person/system.md
+  description: Develops a comprehensive plan for spiritual and mental healing based
+    on psychological profiles, providing personalized recommendations for mental health
+    improvement and overall life enhancement.
+  when_to_use: Develops a comprehensive plan for spiritual and mental healing based
+    on psychological profiles, providing personalized recommendations for mental health
+    improvement and overall life enhancement.
+- name: humanize
+  path: patterns/humanize/README.md
+  description: Rewrites AI-generated text to sound natural, conversational, and easy
+    to understand, maintaining clarity and simplicity.
+  when_to_use: Rewrites AI-generated text to sound natural, conversational, and easy
+    to understand, maintaining clarity and simplicity.
+- name: identify_dsrp_distinctions
+  path: patterns/identify_dsrp_distinctions/system.md
+  description: Encourages creative, systems-based thinking by exploring distinctions,
+    boundaries, and their implications, drawing on insights from prominent systems
+    thinkers.
+  when_to_use: Encourages creative, systems-based thinking by exploring distinctions,
+    boundaries, and their implications, drawing on insights from prominent systems
+    thinkers.
+- name: identify_dsrp_perspectives
+  path: patterns/identify_dsrp_perspectives/system.md
+  description: Explores the concept of distinctions in systems thinking, focusing
+    on how boundaries define ideas, influence understanding, and reveal or obscure
+    insights.
+  when_to_use: Explores the concept of distinctions in systems thinking, focusing
+    on how boundaries define ideas, influence understanding, and reveal or obscure
+    insights.
+- name: identify_dsrp_relationships
+  path: patterns/identify_dsrp_relationships/system.md
+  description: Encourages exploration of connections, distinctions, and boundaries
+    between ideas, inspired by systems thinkers to reveal new insights and patterns
+    in complex systems.
+  when_to_use: Encourages exploration of connections, distinctions, and boundaries
+    between ideas, inspired by systems thinkers to reveal new insights and patterns
+    in complex systems.
+- name: identify_dsrp_systems
+  path: patterns/identify_dsrp_systems/system.md
+  description: Encourages organizing ideas into systems of parts and wholes, inspired
+    by systems thinkers to explore relationships and how changes in organization impact
+    meaning and understanding.
+  when_to_use: Encourages organizing ideas into systems of parts and wholes, inspired
+    by systems thinkers to explore relationships and how changes in organization impact
+    meaning and understanding.
+- name: identify_job_stories
+  path: patterns/identify_job_stories/system.md
+  description: Identifies key job stories or requirements for roles.
+  when_to_use: Identifies key job stories or requirements for roles.
+- name: improve_academic_writing
+  path: patterns/improve_academic_writing/system.md
+  description: Refines text into clear, concise academic language while improving
+    grammar, coherence, and clarity, with a list of changes.
+  when_to_use: Refines text into clear, concise academic language while improving
+    grammar, coherence, and clarity, with a list of changes.
+- name: improve_prompt
+  path: patterns/improve_prompt/system.md
+  description: Improves an LLM/AI prompt by applying expert prompt writing strategies
+    for better results and clarity.
+  when_to_use: Improves an LLM/AI prompt by applying expert prompt writing strategies
+    for better results and clarity.
+- name: improve_report_finding
+  path: patterns/improve_report_finding/system.md
+  description: Improves a penetration test security finding by providing detailed
+    descriptions, risks, recommendations, references, quotes, and a concise summary
+    in markdown format.
+  when_to_use: Improves a penetration test security finding by providing detailed
+    descriptions, risks, recommendations, references, quotes, and a concise summary
+    in markdown format.
+- name: improve_writing
+  path: patterns/improve_writing/system.md
+  description: Refines text by correcting grammar, enhancing style, improving clarity,
+    and maintaining the original meaning. skills.
+  when_to_use: Refines text by correcting grammar, enhancing style, improving clarity,
+    and maintaining the original meaning. skills.
+- name: judge_output
+  path: patterns/judge_output/system.md
+  description: Evaluates Honeycomb queries by judging their effectiveness, providing
+    critiques and outcomes based on language nuances and analytics relevance.
+  when_to_use: Evaluates Honeycomb queries by judging their effectiveness, providing
+    critiques and outcomes based on language nuances and analytics relevance.
+- name: label_and_rate
+  path: patterns/label_and_rate/system.md
+  description: Labels content with up to 20 single-word tags and rates it based on
+    idea count and relevance to human meaning, AI, and other related themes, assigning
+    a tier (S, A, B, C, D) and a quality score.
+  when_to_use: Labels content with up to 20 single-word tags and rates it based on
+    idea count and relevance to human meaning, AI, and other related themes, assigning
+    a tier (S, A, B, C, D) and a quality score.
+- name: md_callout
+  path: patterns/md_callout/system.md
+  description: Classifies content and generates a markdown callout based on the provided
+    text, selecting the most appropriate type.
+  when_to_use: Classifies content and generates a markdown callout based on the provided
+    text, selecting the most appropriate type.
+- name: model_as_sherlock_freud
+  path: patterns/model_as_sherlock_freud/system.md
+  description: Builds psychological models using detective reasoning and psychoanalytic
+    insight to understand human behavior.
+  when_to_use: Builds psychological models using detective reasoning and psychoanalytic
+    insight to understand human behavior.
+- name: official_pattern_template
+  path: patterns/official_pattern_template/system.md
+  description: Template to use if you want to create new fabric patterns.
+  when_to_use: Template to use if you want to create new fabric patterns.
+- name: predict_person_actions
+  path: patterns/predict_person_actions/system.md
+  description: Predicts behavioral responses based on psychological profiles and challenges.
+  when_to_use: Predicts behavioral responses based on psychological profiles and challenges.
+- name: prepare_7s_strategy
+  path: patterns/prepare_7s_strategy/system.md
+  description: Prepares a comprehensive briefing document from 7S's strategy capturing
+    organizational profile, strategic elements, and market dynamics with clear, concise,
+    and organized content.
+  when_to_use: Prepares a comprehensive briefing document from 7S's strategy capturing
+    organizational profile, strategic elements, and market dynamics with clear, concise,
+    and organized content.
+- name: provide_guidance
+  path: patterns/provide_guidance/system.md
+  description: Provides psychological and life coaching advice, including analysis,
+    recommendations, and potential diagnoses, with a compassionate and honest tone.
+  when_to_use: Provides psychological and life coaching advice, including analysis,
+    recommendations, and potential diagnoses, with a compassionate and honest tone.
+- name: rate_ai_response
+  path: patterns/rate_ai_response/system.md
+  description: Rates the quality of AI responses by comparing them to top human expert
+    performance, assigning a letter grade, reasoning, and providing a 1-100 score
+    based on the evaluation.
+  when_to_use: Rates the quality of AI responses by comparing them to top human expert
+    performance, assigning a letter grade, reasoning, and providing a 1-100 score
+    based on the evaluation.
+- name: rate_ai_result
+  path: patterns/rate_ai_result/system.md
+  description: Assesses the quality of AI/ML/LLM work by deeply analyzing content,
+    instructions, and output, then rates performance based on multiple dimensions,
+    including coverage, creativity, and interdisciplinary thinking.
+  when_to_use: Assesses the quality of AI/ML/LLM work by deeply analyzing content,
+    instructions, and output, then rates performance based on multiple dimensions,
+    including coverage, creativity, and interdisciplinary thinking.
+- name: rate_content
+  path: patterns/rate_content/system.md
+  description: Labels content with up to 20 single-word tags and rates it based on
+    idea count and relevance to human meaning, AI, and other related themes, assigning
+    a tier (S, A, B, C, D) and a quality score.
+  when_to_use: Labels content with up to 20 single-word tags and rates it based on
+    idea count and relevance to human meaning, AI, and other related themes, assigning
+    a tier (S, A, B, C, D) and a quality score.
+- name: rate_value
+  path: patterns/rate_value/README.md
+  description: Produces the best possible output by deeply analyzing and understanding
+    the input and its intended purpose.
+  when_to_use: Produces the best possible output by deeply analyzing and understanding
+    the input and its intended purpose.
+- name: raw_query
+  path: patterns/raw_query/system.md
+  description: Fully digests and contemplates the input to produce the best possible
+    result based on understanding the sender's intent.
+  when_to_use: Fully digests and contemplates the input to produce the best possible
+    result based on understanding the sender's intent.
+- name: recommend_artists
+  path: patterns/recommend_artists/system.md
+  description: Recommends a personalized festival schedule with artists aligned to
+    your favorite styles and interests, including rationale.
+  when_to_use: Recommends a personalized festival schedule with artists aligned to
+    your favorite styles and interests, including rationale.
+- name: recommend_pipeline_upgrades
+  path: patterns/recommend_pipeline_upgrades/system.md
+  description: Optimizes vulnerability-checking pipelines by incorporating new information
+    and improving their efficiency, with detailed explanations of changes.
+  when_to_use: Optimizes vulnerability-checking pipelines by incorporating new information
+    and improving their efficiency, with detailed explanations of changes.
+- name: recommend_talkpanel_topics
+  path: patterns/recommend_talkpanel_topics/system.md
+  description: Produces a clean set of proposed talks or panel talking points for
+    a person based on their interests and goals, formatted for submission to a conference
+    organizer.
+  when_to_use: Produces a clean set of proposed talks or panel talking points for
+    a person based on their interests and goals, formatted for submission to a conference
+    organizer.
+- name: recommend_yoga_practice
+  path: patterns/recommend_yoga_practice/system.md
+  description: Provides personalized yoga sequences, meditation guidance, and holistic
+    lifestyle advice based on individual profiles.
+  when_to_use: Provides personalized yoga sequences, meditation guidance, and holistic
+    lifestyle advice based on individual profiles.
+- name: refine_design_document
+  path: patterns/refine_design_document/system.md
+  description: Refines a design document based on a design review by analyzing, mapping
+    concepts, and implementing changes using valid Markdown.
+  when_to_use: Refines a design document based on a design review by analyzing, mapping
+    concepts, and implementing changes using valid Markdown.
+- name: review_code
+  path: patterns/review_code/system.md
+  description: Principal engineer style comprehensive code review with prioritized
+    recommendations and detailed improvement examples for provided code or diffs.
+  when_to_use: Principal engineer style comprehensive code review with prioritized
+    recommendations and detailed improvement examples for provided code or diffs.
+- name: review_design
+  path: patterns/review_design/system.md
+  description: Reviews and analyzes architecture design, focusing on clarity, component
+    design, system integrations, security, performance, scalability, and data management.
+  when_to_use: Reviews and analyzes architecture design, focusing on clarity, component
+    design, system integrations, security, performance, scalability, and data management.
+- name: sanitize_broken_html_to_markdown
+  path: patterns/sanitize_broken_html_to_markdown/system.md
+  description: Converts messy HTML into clean, properly formatted Markdown, applying
+    custom styling and ensuring compatibility with Vite.
+  when_to_use: Converts messy HTML into clean, properly formatted Markdown, applying
+    custom styling and ensuring compatibility with Vite.
+- name: suggest_pattern
+  path: patterns/suggest_pattern/system.md
+  description: Suggests appropriate fabric patterns or commands based on user input,
+    providing clear explanations and options for users.
+  when_to_use: Suggests appropriate fabric patterns or commands based on user input,
+    providing clear explanations and options for users.
+- name: summarize
+  path: patterns/summarize/system.md
+  description: Summarizes content into a 20-word sentence, main points, and takeaways,
+    formatted with numbered lists in Markdown.
+  when_to_use: Summarizes content into a 20-word sentence, main points, and takeaways,
+    formatted with numbered lists in Markdown.
+- name: summarize_board_meeting
+  path: patterns/summarize_board_meeting/system.md
+  description: Creates formal meeting notes from board meeting transcripts for corporate
+    governance documentation.
+  when_to_use: Creates formal meeting notes from board meeting transcripts for corporate
+    governance documentation.
+- name: summarize_debate
+  path: patterns/summarize_debate/system.md
+  description: Summarizes debates, identifies primary disagreement, extracts arguments,
+    and provides analysis of evidence and argument strength to predict outcomes.
+  when_to_use: Summarizes debates, identifies primary disagreement, extracts arguments,
+    and provides analysis of evidence and argument strength to predict outcomes.
+- name: summarize_git_changes
+  path: patterns/summarize_git_changes/system.md
+  description: Summarizes recent project updates from the last 7 days, focusing on
+    key changes with enthusiasm.
+  when_to_use: Summarizes recent project updates from the last 7 days, focusing on
+    key changes with enthusiasm.
+- name: summarize_git_diff
+  path: patterns/summarize_git_diff/system.md
+  description: Summarizes and organizes Git diff changes with clear, succinct commit
+    messages and bullet points.
+  when_to_use: Summarizes and organizes Git diff changes with clear, succinct commit
+    messages and bullet points.
+- name: summarize_lecture
+  path: patterns/summarize_lecture/system.md
+  description: Extracts relevant topics, definitions, and tools from lecture transcripts,
+    providing structured summaries with timestamps and key takeaways.
+  when_to_use: Extracts relevant topics, definitions, and tools from lecture transcripts,
+    providing structured summaries with timestamps and key takeaways.
+- name: summarize_legislation
+  path: patterns/summarize_legislation/system.md
+  description: Summarizes complex political proposals and legislation by analyzing
+    key points, proposed changes, and providing balanced, positive, and cynical characterizations.
+  when_to_use: Summarizes complex political proposals and legislation by analyzing
+    key points, proposed changes, and providing balanced, positive, and cynical characterizations.
+- name: summarize_meeting
+  path: patterns/summarize_meeting/system.md
+  description: Analyzes meeting transcripts to extract a structured summary, including
+    an overview, key points, tasks, decisions, challenges, timeline, references, and
+    next steps.
+  when_to_use: Analyzes meeting transcripts to extract a structured summary, including
+    an overview, key points, tasks, decisions, challenges, timeline, references, and
+    next steps.
+- name: summarize_micro
+  path: patterns/summarize_micro/system.md
+  description: Summarizes content into a 20-word sentence, 3 main points, and 3 takeaways,
+    formatted in clear, concise Markdown.
+  when_to_use: Summarizes content into a 20-word sentence, 3 main points, and 3 takeaways,
+    formatted in clear, concise Markdown.
+- name: summarize_newsletter
+  path: patterns/summarize_newsletter/system.md
+  description: Extracts the most meaningful, interesting, and useful content from
+    a newsletter, summarizing key sections such as content, opinions, tools, companies,
+    and follow-up items in clear, structured Markdown.
+  when_to_use: Extracts the most meaningful, interesting, and useful content from
+    a newsletter, summarizing key sections such as content, opinions, tools, companies,
+    and follow-up items in clear, structured Markdown.
+- name: summarize_paper
+  path: patterns/summarize_paper/README.md
+  description: Summarizes an academic paper by detailing its title, authors, technical
+    approach, distinctive features, experimental setup, results, advantages, limitations,
+    and conclusion in a clear, structured format using human-readable Markdown.
+  when_to_use: Summarizes an academic paper by detailing its title, authors, technical
+    approach, distinctive features, experimental setup, results, advantages, limitations,
+    and conclusion in a clear, structured format using human-readable Markdown.
+- name: summarize_prompt
+  path: patterns/summarize_prompt/system.md
+  description: Summarizes AI chat prompts by describing the primary function, unique
+    approach, and expected output in a concise paragraph. The summary is focused on
+    the prompt's purpose without unnecessary details or formatting.
+  when_to_use: Summarizes AI chat prompts by describing the primary function, unique
+    approach, and expected output in a concise paragraph. The summary is focused on
+    the prompt's purpose without unnecessary details or formatting.
+- name: summarize_pull-requests
+  path: patterns/summarize_pull-requests/system.md
+  description: Summarizes pull requests for a coding project by providing a summary
+    and listing the top PRs with human-readable descriptions.
+  when_to_use: Summarizes pull requests for a coding project by providing a summary
+    and listing the top PRs with human-readable descriptions.
+- name: summarize_rpg_session
+  path: patterns/summarize_rpg_session/system.md
+  description: Summarizes a role-playing game session by extracting key events, combat
+    stats, character changes, quotes, and more.
+  when_to_use: Summarizes a role-playing game session by extracting key events, combat
+    stats, character changes, quotes, and more.
+- name: t_analyze_challenge_handling
+  path: patterns/t_analyze_challenge_handling/system.md
+  description: Provides 8-16 word bullet points evaluating how well challenges are
+    being addressed, calling out any lack of effort.
+  when_to_use: Provides 8-16 word bullet points evaluating how well challenges are
+    being addressed, calling out any lack of effort.
+- name: t_check_dunning_kruger
+  path: patterns/t_check_dunning_kruger/system.md
+  description: Assess narratives for Dunning-Kruger patterns by contrasting self-perception
+    with demonstrated competence and confidence cues.
+  when_to_use: Assess narratives for Dunning-Kruger patterns by contrasting self-perception
+    with demonstrated competence and confidence cues.
+- name: t_check_metrics
+  path: patterns/t_check_metrics/system.md
+  description: Analyzes deep context from the TELOS file and input instruction, then
+    provides a wisdom-based output while considering metrics and KPIs to assess recent
+    improvements.
+  when_to_use: Analyzes deep context from the TELOS file and input instruction, then
+    provides a wisdom-based output while considering metrics and KPIs to assess recent
+    improvements.
+- name: t_create_h3_career
+  path: patterns/t_create_h3_career/system.md
+  description: Summarizes context and produces wisdom-based output by deeply analyzing
+    both the TELOS File and the input instruction, considering the relationship between
+    the two.
+  when_to_use: Summarizes context and produces wisdom-based output by deeply analyzing
+    both the TELOS File and the input instruction, considering the relationship between
+    the two.
+- name: t_create_opening_sentences
+  path: patterns/t_create_opening_sentences/system.md
+  description: Describes from TELOS file the person's identity, goals, and actions
+    in 4 concise, 32-word bullet points, humbly.
+  when_to_use: Describes from TELOS file the person's identity, goals, and actions
+    in 4 concise, 32-word bullet points, humbly.
+- name: t_describe_life_outlook
+  path: patterns/t_describe_life_outlook/system.md
+  description: Describes from TELOS file a person's life outlook in 5 concise, 16-word
+    bullet points.
+  when_to_use: Describes from TELOS file a person's life outlook in 5 concise, 16-word
+    bullet points.
+- name: t_extract_intro_sentences
+  path: patterns/t_extract_intro_sentences/system.md
+  description: Summarizes from TELOS file a person's identity, work, and current projects
+    in 5 concise and grounded bullet points.
+  when_to_use: Summarizes from TELOS file a person's identity, work, and current projects
+    in 5 concise and grounded bullet points.
+- name: t_extract_panel_topics
+  path: patterns/t_extract_panel_topics/system.md
+  description: Creates 5 panel ideas with titles and descriptions based on deep context
+    from a TELOS file and input.
+  when_to_use: Creates 5 panel ideas with titles and descriptions based on deep context
+    from a TELOS file and input.
+- name: t_find_blindspots
+  path: patterns/t_find_blindspots/system.md
+  description: Identify potential blindspots in thinking, frames, or models that may
+    expose the individual to error or risk.
+  when_to_use: Identify potential blindspots in thinking, frames, or models that may
+    expose the individual to error or risk.
+- name: t_find_negative_thinking
+  path: patterns/t_find_negative_thinking/system.md
+  description: Analyze a TELOS file and input to identify negative thinking in documents
+    or journals, followed by tough love encouragement.
+  when_to_use: Analyze a TELOS file and input to identify negative thinking in documents
+    or journals, followed by tough love encouragement.
+- name: t_find_neglected_goals
+  path: patterns/t_find_neglected_goals/system.md
+  description: Analyze a TELOS file and input instructions to identify goals or projects
+    that have not been worked on recently.
+  when_to_use: Analyze a TELOS file and input instructions to identify goals or projects
+    that have not been worked on recently.
+- name: t_give_encouragement
+  path: patterns/t_give_encouragement/system.md
+  description: Analyze a TELOS file and input instructions to evaluate progress, provide
+    encouragement, and offer recommendations for continued effort.
+  when_to_use: Analyze a TELOS file and input instructions to evaluate progress, provide
+    encouragement, and offer recommendations for continued effort.
+- name: t_red_team_thinking
+  path: patterns/t_red_team_thinking/system.md
+  description: Analyze a TELOS file and input instructions to red-team thinking, models,
+    and frames, then provide recommendations for improvement.
+  when_to_use: Analyze a TELOS file and input instructions to red-team thinking, models,
+    and frames, then provide recommendations for improvement.
+- name: t_threat_model_plans
+  path: patterns/t_threat_model_plans/system.md
+  description: Analyze a TELOS file and input instructions to create threat models
+    for a life plan and recommend improvements.
+  when_to_use: Analyze a TELOS file and input instructions to create threat models
+    for a life plan and recommend improvements.
+- name: t_visualize_mission_goals_projects
+  path: patterns/t_visualize_mission_goals_projects/system.md
+  description: Analyze a TELOS file and input instructions to create an ASCII art
+    diagram illustrating the relationship of missions, goals, and projects.
+  when_to_use: Analyze a TELOS file and input instructions to create an ASCII art
+    diagram illustrating the relationship of missions, goals, and projects.
+- name: t_year_in_review
+  path: patterns/t_year_in_review/system.md
+  description: Analyze a TELOS file to create insights about a person or entity, then
+    summarize accomplishments and visualizations in bullet points.
+  when_to_use: Analyze a TELOS file to create insights about a person or entity, then
+    summarize accomplishments and visualizations in bullet points.
+- name: to_flashcards
+  path: patterns/to_flashcards/system.md
+  description: Create Anki flashcards from a given text, focusing on concise, optimized
+    questions and answers without external context.
+  when_to_use: Create Anki flashcards from a given text, focusing on concise, optimized
+    questions and answers without external context.
+- name: transcribe_minutes
+  path: patterns/transcribe_minutes/README.md
+  description: Extracts (from meeting transcription) meeting minutes, identifying
+    actionables, insightful ideas, decisions, challenges, and next steps in a structured
+    format.
+  when_to_use: Extracts (from meeting transcription) meeting minutes, identifying
+    actionables, insightful ideas, decisions, challenges, and next steps in a structured
+    format.
+- name: translate
+  path: patterns/translate/system.md
+  description: Translates sentences or documentation into the specified language code
+    while maintaining the original formatting and tone.
+  when_to_use: Translates sentences or documentation into the specified language code
+    while maintaining the original formatting and tone.
+- name: tweet
+  path: patterns/tweet/system.md
+  description: Provides a step-by-step guide on crafting engaging tweets with emojis,
+    covering Twitter basics, account creation, features, and audience targeting.
+  when_to_use: Provides a step-by-step guide on crafting engaging tweets with emojis,
+    covering Twitter basics, account creation, features, and audience targeting.
+- name: write_essay
+  path: patterns/write_essay/system.md
+  description: Writes essays in the style of a specified author, embodying their unique
+    voice, vocabulary, and approach. Uses `author_name` variable.
+  when_to_use: Writes essays in the style of a specified author, embodying their unique
+    voice, vocabulary, and approach. Uses `author_name` variable.
+- name: write_essay_pg
+  path: patterns/write_essay_pg/system.md
+  description: Writes concise, clear essays in the style of Paul Graham, focusing
+    on simplicity, clarity, and illumination of the provided topic.
+  when_to_use: Writes concise, clear essays in the style of Paul Graham, focusing
+    on simplicity, clarity, and illumination of the provided topic.
+- name: write_hackerone_report
+  path: patterns/write_hackerone_report/README.md
+  description: Generates concise, clear, and reproducible bug bounty reports, detailing
+    vulnerability impact, steps to reproduce, and exploit details for triagers.
+  when_to_use: Generates concise, clear, and reproducible bug bounty reports, detailing
+    vulnerability impact, steps to reproduce, and exploit details for triagers.
+- name: write_latex
+  path: patterns/write_latex/system.md
+  description: Generates syntactically correct LaTeX code for a new.tex document,
+    ensuring proper formatting and compatibility with pdflatex.
+  when_to_use: Generates syntactically correct LaTeX code for a new.tex document,
+    ensuring proper formatting and compatibility with pdflatex.
+- name: write_micro_essay
+  path: patterns/write_micro_essay/system.md
+  description: Writes concise, clear, and illuminating essays on the given topic in
+    the style of Paul Graham.
+  when_to_use: Writes concise, clear, and illuminating essays on the given topic in
+    the style of Paul Graham.
+- name: write_nuclei_template_rule
+  path: patterns/write_nuclei_template_rule/system.md
+  description: Generates Nuclei YAML templates for detecting vulnerabilities using
+    HTTP requests, matchers, extractors, and dynamic data extraction.
+  when_to_use: Generates Nuclei YAML templates for detecting vulnerabilities using
+    HTTP requests, matchers, extractors, and dynamic data extraction.
+- name: write_pull-request
+  path: patterns/write_pull-request/system.md
+  description: Drafts detailed pull request descriptions, explaining changes, providing
+    reasoning, and identifying potential bugs from the git diff command output.
+  when_to_use: Drafts detailed pull request descriptions, explaining changes, providing
+    reasoning, and identifying potential bugs from the git diff command output.
+- name: write_semgrep_rule
+  path: patterns/write_semgrep_rule/system.md
+  description: Creates accurate and working Semgrep rules based on input, following
+    syntax guidelines and specific language considerations.
+  when_to_use: Creates accurate and working Semgrep rules based on input, following
+    syntax guidelines and specific language considerations.
+- name: youtube_summary
+  path: patterns/youtube_summary/system.md
+  description: Create concise, timestamped Youtube video summaries that highlight
+    key points.
+  when_to_use: Create concise, timestamped Youtube video summaries that highlight
+    key points.
