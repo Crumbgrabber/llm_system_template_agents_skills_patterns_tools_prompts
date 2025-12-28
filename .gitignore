@@ -15,8 +15,14 @@ instructions.md
 # Python caches
 __pycache__/
 *.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+*.tmp
 
 # Editor/OS noise
 .DS_Store
 Thumbs.db
 *.swp
+.vscode/
+.idea/
