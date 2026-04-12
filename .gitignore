@@ -4,6 +4,13 @@
 
 # Local tools and binaries
 /tools/
+/knowledge/
+/projects_spaces/
+/prompts/
+
+# External reference repos (read-only, not part of this repo)
+/antigravity-awesome-skills/
+
 
 # Personal/local docs
 instructions.md
